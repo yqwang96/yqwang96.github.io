@@ -1,6 +1,6 @@
 ---
 title: "Sharing Mobility Analysis, Regulation and Track (SMART) platform"
-collection: project
+collection: projects
 type: "Undergraduate course"
 permalink: /projects/project-2
 venue: "University 1, Department"
