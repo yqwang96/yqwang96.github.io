@@ -3,7 +3,7 @@ title: "Sharing Mobility Analysis, Regulation and Track (SMART) platform"
 collection: projects
 type: "Simulation and Track Platform"
 permalink: /projects/project-1
-venue: "University 1, Department"
+role: "Developer"
 date: 2022-12-01
 location: "City, Country"
 ---
