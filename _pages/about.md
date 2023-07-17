@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D candidate in System science at [Beijing Jiaotong University](http://en.njtu.edu.cn/), China. I obtained his Bachelor of Engineering degree from Qingdao University of Technology in 2018, after which I entered Beijing Jiaotong University to study for a Master's degree in Transportation Planning and Management. I then continued my studies at Beijing Jiaotong University in a combined Master's and Ph.D. program. My doctoral research focuses on driver-passenger matching and vehicle dispatch optimization in the ride-sourcing market. I also has a strong research interest in reinforcement learning, deep learning, operations research, and large-scale simulation.
+I am a Ph.D candidate in System science at [Beijing Jiaotong University](http://en.njtu.edu.cn/), China. I obtained my Bachelor of Engineering degree from Qingdao University of Technology in 2018, after which I entered Beijing Jiaotong University to study for a Master's degree in Transportation Planning and Management. I then continued my studies at Beijing Jiaotong University in a combined Master's and Ph.D. program. My doctoral research focuses on driver-passenger matching and vehicle dispatch optimization in the ride-sourcing market. I also has a strong research interest in reinforcement learning, deep learning, operations research, and large-scale simulation.
 
 Education
 ======
