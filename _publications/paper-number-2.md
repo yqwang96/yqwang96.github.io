@@ -12,4 +12,4 @@ This study presents a multi-service mode dispatching framework, incorporating a 
 
 [Download paper here](https://link.springer.com/article/10.1007/s11771-022-5193-4)
 
-Recommended citation: Wang, Yq., Wu, Jj., Sun, Hj. et al. Order dispatching optimization in ride-sourcing market by considering cross service modes. J. Cent. South Univ. 30, 642–653 (2023). https://doi.org/10.1007/s11771-022-5193-4
+<!-- Recommended citation: Wang, Yq., Wu, Jj., Sun, Hj. et al. Order dispatching optimization in ride-sourcing market by considering cross service modes. J. Cent. South Univ. 30, 642–653 (2023). https://doi.org/10.1007/s11771-022-5193-4 -->

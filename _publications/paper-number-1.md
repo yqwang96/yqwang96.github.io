@@ -13,4 +13,4 @@ This research proposes a two-stage reassignment framework for ride-sourcing mark
 
 [Download paper here](https://ieeexplore.ieee.org/document/10128792)
 
-Recommended citation: Y. Wang, J. Wu, H. Sun, Y. Lv and G. Xu, "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3274636.
+<!-- Recommended citation: Y. Wang, J. Wu, H. Sun, Y. Lv and G. Xu, "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3274636. -->
