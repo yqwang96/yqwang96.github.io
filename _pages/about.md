@@ -12,10 +12,10 @@ I am a Ph.D candidate in System science at [Beijing Jiaotong University](http://
 
 Education
 ======
-* B.S. in Traffic engineering, Qingdao University of Technology, 2014-2018
-* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018-2019 (continued as Ph.D candidate)
-* Visiting Ph.D in [Graduate School for International Development and Cooperation (IDEC)](https://home.hiroshima-u.ac.jp/~zjy/members/), Hiroshima University, 2022-2023
 * Ph.D in System science, Beijing Jiaotong University, 2019-2024 (expected)
+* Visiting Ph.D in [Graduate School for International Development and Cooperation (IDEC)](https://home.hiroshima-u.ac.jp/~zjy/members/), Hiroshima University, 2022-2023
+* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018-2019 (continued as Ph.D candidate)
+* B.S. in Traffic engineering, Qingdao University of Technology, 2014-2018
 
 Research Interests
 ======
