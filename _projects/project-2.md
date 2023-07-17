@@ -2,9 +2,9 @@
 title: "Sharing Mobility Analysis, Regulation and Track (SMART) platform"
 collection: project
 type: "Undergraduate course"
-permalink: /projects/project-1
+permalink: /projects/project-2
 venue: "University 1, Department"
-date: 2022-12-01
+date: 2022-11-30
 location: "City, Country"
 ---
 
