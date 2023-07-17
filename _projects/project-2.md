@@ -1,14 +1,14 @@
 ---
-title: "Sharing Mobility Analysis, Regulation and Track (SMART) platform"
+title: "Ride-sourcing Gym"
 collection: projects
-type: "Undergraduate course"
+type: "Simulation and Training Reinforcement Learning Environment"
 permalink: /projects/project-2
 venue: "University 1, Department"
 date: 2022-11-30
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+A simulation environment for the ride-sourcing system that supports reinforcement learning-based dispatching algorithms, reposition algorithms, and space-time pricing algorithms.
 
 Heading 1
 ======
