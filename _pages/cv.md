@@ -55,7 +55,7 @@ Reward
 * The National Third Prize of Mathematical Contest in Modeling for Chinese Graduate Students, 2019, Beijing, China
 * Beijing Jiaotong University Doctoral Scholarship, 2019, 2020, 2021
 
-Working Expericens
+Work Experience
 ======
 * Assistant engineer, Traffic Information Center, Beijing Transportation Commission, 2019.03-2019.06
   * Formulate the "Specifications for Labeling Text Information of Transportation Video Images" 
