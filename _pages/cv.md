@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in Traffic engineering, Qingdao University of Technology, 2014
-* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018
+* B.S. in Traffic engineering, Qingdao University of Technology, 2018
+* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2019 (continued study as Ph.D candidate)
 * Ph.D in System science, Beijing Jiaotong University, 2024 (expected)
 
 <!-- Work experience

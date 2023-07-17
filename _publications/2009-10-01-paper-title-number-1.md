@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'This research proposes a two-stage reassignment framework for ride-sourcing markets, integrating a reinforcement learning algorithm and a bilateral matching model, which has been demonstrated to enhance passenger experience, reduce driving costs, and contribute to eco-friendly travel by learning passenger travel patterns and adjusting vehicle reassignment timings.'
+date: 2023-05-15
+venue: 'IEEE Transactions on Intelligent Transportation Systems'
+paperurl: 'https://ieeexplore.ieee.org/document/10128792'
+citation: 'Y. Wang, J. Wu, H. Sun, Y. Lv and G. Xu, "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3274636.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This research proposes a two-stage reassignment framework for ride-sourcing markets, integrating a reinforcement learning algorithm and a bilateral matching model.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://ieeexplore.ieee.org/document/10128792)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Y. Wang, J. Wu, H. Sun, Y. Lv and G. Xu, "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3274636.
