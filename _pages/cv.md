@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-#### Download [CN version](http://yqwang96.github.io/files/WANGYinquan-CV.pdf) or [EN version](http://yqwang96.github.io/files/WANGYinquan-CV.pdf)
+### Download [CN version](http://yqwang96.github.io/files/WANGYinquan-CV.pdf) or [EN version](http://yqwang96.github.io/files/WANGYinquan-CV-En.pdf)
 
 Education
 ======
