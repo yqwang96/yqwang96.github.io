@@ -42,9 +42,6 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'projects' %}
           <p> <i>{{ post.type }}, </i> {{ post.role }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% if post.githublink %}
-          <p>Codein <a href=" {{ post.githublink }} "><u>here</u></a></p>
-          {% endif %}
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

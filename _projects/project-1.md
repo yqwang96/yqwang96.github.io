@@ -9,6 +9,3 @@ location: "City, Country"
 ---
 
 A platform that integrates ride-sourcing, shared car and shared bicycle order data, trajectory data analysis, mining and visualization, travel demand forecasting, etc.
-
-Heading 1
-======
