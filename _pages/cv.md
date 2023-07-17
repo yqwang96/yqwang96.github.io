@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 #### Download [CN version](http://yqwang96.github.io/files/WANGYinquan-CV.pdf) or [EN version](http://yqwang96.github.io/files/WANGYinquan-CV.pdf)
+
 Education
 ======
 * B.S. in Traffic engineering, Qingdao University of Technology, 2014-2018
