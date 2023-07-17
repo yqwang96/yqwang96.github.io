@@ -37,10 +37,10 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Personal projects
+Projects
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
+  <ul>{% for post in site.projects %}
+    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Teaching
