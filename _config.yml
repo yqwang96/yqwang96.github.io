@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yinquan WANG / Home page"
+title                    : "Yinquan WANG (王印权) / Home page"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yinquan WANG"
+  name             : "Yinquan WANG/王印权"
   avatar           : "profile.png"
   bio              : "Ph.D candidate of Beijing Jiaotong University"
   location         : "Beijing"
