@@ -53,12 +53,20 @@ Personal projects
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Reward
+Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Reward
 ======
-* Currently signed in to 43 different slack teams
+* The National Second Prize of the Second Digital China Innovation Competition, 2020, Fuzhou, China
+* The National Third Prize of Mathematical Contest in Modeling for Chinese Overseas Students, 2019, Beijing, China
+* Beijing Jiaotong University Doctoral Scholarship, 2019, 2020, 2021
+
+Working Expericens
+======
+* Assistant engineer, Traffic Information Center, Beijing Transportation Commission, 2019.03-2019.06
+  * Formulate the "Specifications for Labeling Text Information of Transportation Video Images" 
+

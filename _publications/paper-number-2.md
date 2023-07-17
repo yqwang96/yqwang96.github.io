@@ -1,7 +1,7 @@
 ---
 title: "Order dispatching optimization in ride-sourcing market by considering cross service modes"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/paper-number-2
 excerpt: 'This study presents a multi-service mode dispatching framework, incorporating a simulator and a two-stage reinforcement learning algorithm, which successfully reduces vehicle idle time and improves passenger experience in ride-sourcing platforms, fulfilling additional basic requests without compromising premium ones.'
 date: 2023-04-20
 venue: 'Journal of Central South University'

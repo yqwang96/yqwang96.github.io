@@ -1,7 +1,7 @@
 ---
 title: "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/paper-number-1
 excerpt: 'This research proposes a two-stage reassignment framework for ride-sourcing markets, integrating a reinforcement learning algorithm and a bilateral matching model.'
 date: 2023-05-15
 venue: 'IEEE Transactions on Intelligent Transportation Systems'
