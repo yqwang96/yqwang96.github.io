@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in Traffic engineering, Qingdao University of Technology, 2018
-* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2019 (continued study as Ph.D candidate)
-* Ph.D in System science, Beijing Jiaotong University, 2024 (expected)
+* B.S. in Traffic engineering, Qingdao University of Technology, 2014-2018
+* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018-2019 (continued study as Ph.D candidate)
+* Visiting Ph.D in Graduate School for International Development and Cooperation (IDEC), Hiroshima University, 2022-2023
+* Ph.D in System science, Beijing Jiaotong University, 2019-2024 (expected)
 
 <!-- Work experience
 ======
@@ -29,12 +30,16 @@ Education
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning
+  * Pytorch, Gym, Stable-baselines3
+* Data Science
+  * Pandas, Numpy, Scipy, Scikit-learn, Spark
+* Operations Research
+  * cplex, DOcplex
+* Visulization
+  * Matplotlib, Echarts, seaborn, leaflet, Mapboxgl
+* Website Development
+  * Django, JavaScript, React, Django REST Framework, Axios, AntDesign
 
 Publications
 ======
@@ -42,13 +47,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Personal projects
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+Reward
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
