@@ -3,7 +3,7 @@ title: "Reinforcement learning-based order-dispatching optimization in ride-sour
 collection: publications
 permalink: /publication/paper-number-3
 excerpt: 'This study improves ride-sourcing dispatching by modeling passenger behavior and driver work patterns, implementing a cooperative algorithm, and using price incentives, leading to enhanced response rates, increased revenue, and better passenger experience.'
-date: 2023-04-20
+date: 2021-12-21
 venue: 'Computers and Industrial Engineering (Second round review)'
 # paperurl: 'https://link.springer.com/article/10.1007/s11771-022-5193-4'
 # citation: 'Wang, Yq., Wu, Jj., Sun, Hj. et al. Order dispatching optimization in ride-sourcing market by considering cross service modes. J. Cent. South Univ. 30, 642–653 (2023). https://doi.org/10.1007/s11771-022-5193-4'

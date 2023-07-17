@@ -15,18 +15,6 @@ Education
 * M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018-2019 (continued study as Ph.D candidate)
 * Visiting Ph.D in Graduate School for International Development and Cooperation (IDEC), Hiroshima University, 2022-2023
 * Ph.D in System science, Beijing Jiaotong University, 2019-2024 (expected)
-
-<!-- Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub -->
   
 Skills
 ======
@@ -62,7 +50,7 @@ Teaching
 Reward
 ======
 * The National Second Prize of the Second Digital China Innovation Competition, 2020, Fuzhou, China
-* The National Third Prize of Mathematical Contest in Modeling for Chinese Overseas Students, 2019, Beijing, China
+* The National Third Prize of Mathematical Contest in Modeling for Chinese Graduate Students, 2019, Beijing, China
 * Beijing Jiaotong University Doctoral Scholarship, 2019, 2020, 2021
 
 Working Expericens
