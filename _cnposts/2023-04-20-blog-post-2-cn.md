@@ -35,7 +35,7 @@ $$ A^{(n)}_t=r_t+\gamma r_{t+1} + \gamma ^2 r_{t+2}+...+r^n V(s_{t+n})-V(s_t)$$
 此外，根据我在[CartPole环境](https://www.gymlibrary.dev/environments/classic_control/cart_pole/)中的测试结果来看，随着优势函数估计步长的增加，算法收敛的速度将会变慢，并且训练的效果并没有明显改善。在不引入其他Trick的情况下，Advantage actor-critic算法在CartPole环境中的效果并不是很稳定，往往在收敛后，Reward曲线会出现断崖式下跌的情况，可能是因为只采用了单个的actor与critic网络，因此会出现过估计的情况，这种现象可能在采用[DDPG算法](https://arxiv.org/abs/1509.02971)后会有所改善。当然，这也可能是我的超参数设置并不是很好。:D
 
 参考链接：
-1. https://zhuanlan.zhihu.com/p/29486661 
+1. [https://zhuanlan.zhihu.com/p/29486661](https://zhuanlan.zhihu.com/p/29486661) 
 
 
 ------
