@@ -1,13 +1,12 @@
 ---
-title: 'Gymnasium中的Terminated与Truncated的差别'
-date: 2023-07-19
-permalink: /posts/2023/07/blog-post-1/
+title: 'The difference between "Terminated" and "Truncated" in Gymnasium'
+date: 2023-04-19
+permalink: /cnposts/2023/07/blog-post-1/
 tags:
   - cool posts
   - reinforcement learning
   - tage
 ---
-
 
 最近，在重新复习一些经典的强化学习算法的时候发现，原本常用于算法验证的环境库gym已经更新迭代，并且出现了新的仿真环境库Gymnasium了。相比于早期的Gym库，新版本的gym库和Gymnasium库在训练过程中存在着一些不同。
 

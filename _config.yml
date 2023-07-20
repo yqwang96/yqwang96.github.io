@@ -190,6 +190,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  cnposts:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -205,6 +208,16 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+    path: ""
+    type: cnposts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: true
+    share: true
+    related: true
   # _pages
   - scope:
       path: ""
