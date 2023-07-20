@@ -36,4 +36,6 @@ $$ A^{(n)}_t=r_t+\gamma r_{t+1} + \gamma ^2 r_{t+2}+...+r^n V(s_{t+n})-V(s_t)$$
 
 参考链接：
 1. https://zhuanlan.zhihu.com/p/29486661 
+
+
 ------
