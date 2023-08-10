@@ -44,7 +44,12 @@ $$y_{target}=r + \gamma * \max_{a'} Q(s', a'; \theta)$$
 
 在早期版本的gym库中，如果仅使用`done`的话，无法区分这两种状态，会导致智能体产生错误的价值估计。在更新后的版本中，则很好的弥补了这一点。
 
-参考链接:
+补充更新：
+这一点不同所带来的影响可归纳如下：
++ 在判断Episode是否结束时，需要同时根据`truncated`与`terminated`进行判断。
++ 在进行计算时，只用存储`terminated`即可。（因为truncated中智能体并没有到达终点状态，在$y_{target}$的计算中，最后一项是仍需要的。）
+
+**参考链接**:
 1. [https://www.kezhi.tech/5be4b154.html](https://www.kezhi.tech/5be4b154.html)
 2. [https://www.gymlibrary.dev/api/core/#gym-env](https://www.gymlibrary.dev/api/core/#gym-env)
 3. [https://github.com/openai/gym/issues/2510](https://github.com/openai/gym/issues/2510)
