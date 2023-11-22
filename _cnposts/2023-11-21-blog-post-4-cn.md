@@ -72,23 +72,31 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   A_j + M \cdot (x_{gj}^{k} - 1) \leq t_{gj}^{k} \leq A_j + \tau_j, \forall g \in G, \forall j \in J, \forall k \in K
   $$
 
+  该约束计算拖船的工作开始时间$t_{gj}^{k}$。特别地，当$x_{gj}^{k}$为0时，$t_{gj}^{k}$的值被强制为0；反之，$t_{gj}^{k}$的值介于$A_j$和$A_j + \tau_j$之间。
+
   + 约束5
   
   $$
   C_j + M \cdot (x_{gj}^{k} - 1) \leq c_{gj}^{k} \leq C_j + \pi_j,  \forall g \in G, \forall j \in J, \forall k \in K
   $$
 
+  类似的，该约束计算拖船的工作时长$c_{gj}^{k}$。特别地，当$x_{gj}^{k}$为0时，$c_{gj}^{k}$的值被强制为0；反之，$t_{gj}^{k}$的值介于$C_j$和$C_j + \pi_j$之间。
+
   + 约束6
   
   $$
-  t_{gj}^k \geq \sum_{j'} \left( t_{gj'}^{k-1} + c_{gj'}^{k-1} \right) - \Delta C \geq M \cdot \left( x_{gj}^{k} - 1 \right), \forall g \in G, \forall j \in J, \forall k \in \{2, \ldots, m\}
+  t_{gj}^k - \sum_{j'} \left( t_{gj'}^{k-1} + c_{gj'}^{k-1} \right) - \Delta C \geq M \cdot \left( x_{gj}^{k} - 1 \right), \forall g \in G, \forall j \in J, \forall k \in \{2, \ldots, m\}
   $$
-  
+
+  该约束确保拖船在为新到达的船舶$j$提供服务器之前，必须完成它之前的任务$j'$，并且留有一定的空闲时间$\Delta C$。当$x_{gj}^{k}$为0时，上式右侧为一个很大的负值，该约束就不起作用。该约束是一个'U-turn'约束
+
   + 约束7
   
   $$
   \sum_{g} \sum_{k} (m_g - w_j) \cdot x_{gj}^{k} \geq 0, \forall j \in J
   $$
+
+  该约束为船舶马力限制。只有拖船$g$的马力超过船舶$j$的吨位时，拖船$g$才能为船舶$j$提供服务。
   
   + 约束8-约束10
   
@@ -103,6 +111,9 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   $$
   c_{gj}^{k} \geq 0, \forall g \in G, \forall j \in J, \forall k \in K
   $$
+  
+  上述约束为决策变量的范围约束。
+
 
 
 ### 不确定性模型
