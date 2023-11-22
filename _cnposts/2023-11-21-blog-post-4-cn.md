@@ -41,6 +41,7 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   $$
   
   该目标旨在最小化拖船在锚地到泊位的工作过程中的总加权工作时长。
+
   + 约束1
   
   $$
@@ -48,6 +49,7 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   $$ 
   
   该约束确保每个船舶在研究时间范围$T$内应当被分配且只能分配到一个拖船。
+
   + 约束2
   
   $$
@@ -55,6 +57,7 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   $$ 
   
   该约束确保每个拖船在每个时刻最多只能为一只船舶提供服务。
+
   + 约束3
   
   $$
@@ -62,6 +65,7 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   $$ 
   
   该约束限制拖船只有在完成上一工作流程后才能投入下一工作流程的工作。如果拖船$g$在$k-1$时刻没有为任一船舶提供服务，那么其在$k$时刻就不能提供服务。在这一情况下，如果拖船要提供服务，那么实际上$k$时刻的任务就是该船舶在$k-1$时刻的任务。
+
   + 约束4
   
   $$
@@ -73,11 +77,13 @@ Transportation Research Part E: Logistics and Transportation Review, 144,2020, 1
   $$
   C_j + M \cdot (x_{gj}^{k} - 1) \leq c_{gj}^{k} \leq C_j + \pi_j,  \forall g \in G, \forall j \in J, \forall k \in K
   $$
+
   + 约束6
   
   $$
   t_{gj}^k \geq \sum_{j'} \left( t_{gj'}^{k-1} + c_{gj'}^{k-1} \right) - \Delta C \geq M \cdot \left( x_{gj}^{k} - 1 \right), \forall g \in G, \forall j \in J, \forall k \in \{2, \ldots, m\}
   $$
+  
   + 约束7
   
   $$
