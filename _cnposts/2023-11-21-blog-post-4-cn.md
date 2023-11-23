@@ -164,7 +164,31 @@ $$
 A_j(\omega_s) + M \cdot (x_{gj}^{k}(\omega_s) - 1) \leq t_{gj}^{k} + t_{gj}^{k+}(\omega_s) - t_{gj}^{k-}(\omega_s) \leq A_j(\omega_s) + T_j, \\ \forall g \in G, \forall j \in J, \forall k \in K, \forall \omega_s \in W
 $$
 
+$$
+C_j(\omega_s) + M \cdot (x_{gj}^{k}(\omega_s) - 1) \leq c_{gj}^{k}(\omega_s) + c_{gj}^{k+}(\omega_s) - c_{gj}^{k-}(\omega_s) \leq C_j(\omega_s) + T_j, \\
+\forall g \in G, \forall j \in J, \forall k \in K, \forall \omega_s \in W
+$$
 
+$$
+t_{gj}^{k} + t_{gj}^{k+}(\omega_s) - t_{gj}^{k-}(\omega_s) - \sum_{j} (t_{gj}^{k-1} + t_{gj}^{k-1+}(\omega_s) - t_{gj}^{k-1-}(\omega_s) + c_{gj}^{k-1+}(\omega_s) - c_{gj}^{k-1-}(\omega_s) ) - \Delta C \geq M \cdot (x_{gj}^{k}(\omega_s) - 1), \\
+\forall g \in G, \forall j \in J, \forall k \in \{2, \ldots, m\}, \forall \omega_s \in W
+$$
+
+$$
+\sum_{g} \sum_{k} (m_g - w_j) \cdot x_{gj}^{k}(\omega_s) \geq 0, \forall j \in J, \forall \omega_s \in W
+$$
+
+$$
+x_{gj}^{k}(\omega_s) \in \{0, 1\}, \forall g \in G, \forall j \in J, \forall k \in K, \forall \omega_s \in W
+$$
+
+$$
+t_{gj}^{k+}(\omega_s) + t_{gj}^{k-}(\omega_s) \geq 0, \quad \forall g \in G, \forall j \in J, \forall k \in K, \forall \omega_s \in W
+$$
+
+$$
+c_{gj}^{k+}(\omega_s) + c_{gj}^{k-}(\omega_s) \geq 0, \quad \forall g \in G, \forall j \in J, \forall k \in K, \forall \omega_s \in W
+$$
 
 
 ## 知识整理
