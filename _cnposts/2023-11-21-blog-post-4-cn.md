@@ -146,6 +146,25 @@ $$
 min \sum_{g} \sum_{j} \sum_{k} \varepsilon_j \cdot (t_{gj}^k + c_{gj}^k - A_j \cdot x_{gj}^k) \\ + \sum_{\omega_s} \left\{ p(\omega_s) \cdot \left( \sum_{g} \sum_{j} \sum_{k} \varepsilon_j \cdot \left( t_{gj}^{k+}(\omega_s) - t_{gj}^{k-}(\omega_s) + c_{gj}^{k+}(\omega_s) - c_{gj}^{k-}(\omega_s) - A_j(\omega_s) \cdot x_{gj}^k(\omega_s) \right) \right) \right\}
 $$
 
++ 约束（与MILP-D模型基本相同）
+
+$$
+\sum_{g} \sum_{k} x_{gj}^{k}(\omega_s) = 1, \quad \forall j \in J, \forall \omega_s \in W
+$$
+
+$$
+\sum_{j} x_{gj}^{k}(\omega_s) \leq 1, \quad \forall g \in G, \forall k \in K, \forall \omega_s \in W
+$$
+
+$$
+\sum_{j} x_{gj}^{k-1}(\omega_s) - \sum_{j} x_{gj}^{k}(\omega_s) \geq 0, \quad \forall g \in G, \forall k \in \{2, \ldots, m\}, \forall \omega_s \in W
+$$
+
+$$
+A_j(\omega_s) + M \cdot (x_{gj}^{k}(\omega_s) - 1) \leq t_{gj}^{k} + t_{gj}^{k+}(\omega_s) - t_{gj}^{k-}(\omega_s) \leq A_j(\omega_s) + T_j, \\ \forall g \in G, \forall j \in J, \forall k \in K, \forall \omega_s \in W
+$$
+
+
 
 
 ## 知识整理
