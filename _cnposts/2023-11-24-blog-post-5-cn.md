@@ -8,7 +8,10 @@ tags:
   - 运筹优化
 ---
 
-今天继续看之前师兄做的研究，论文信息如下：<div class="csl-entry">Kang, L., Meng, Q., Zhou, C., &#38; Gao, S. (2019). How do ships pass through L-shaped turnings in the Singapore strait? <i>Ocean Engineering</i>, <i>182</i>, 329–342. https://doi.org/10.1016/j.oceaneng.2019.04.033</div>
+今天继续看之前师兄做的研究，论文信息如下：
+
+Kang, L., Meng, Q., Zhou, C., &#38; Gao, S. (2019). How do ships pass through L-shaped turnings in the Singapore strait? <i>Ocean Engineering</i>, <i>182</i>, 329–342. https://doi.org/10.1016/j.oceaneng.2019.04.033
+
 这篇研究主要是根据新加坡马六甲海峡的船舶AIS数据，分析船舶是怎么通过马六甲海鲜的L形水域的。主要进行了异常数据处理，筛选通过不规则水域的数据，并提出了一个方法来筛选通过L型转弯的船只。最后，提出了方法从大量船舶AIS数据中识别船舶减速的过程，分析L型的转弯对航行有什么影响。
 
 ## 摘要
