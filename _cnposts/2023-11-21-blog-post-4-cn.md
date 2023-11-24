@@ -9,9 +9,9 @@ tags:
 ---
 
 因为找工作的原因，最近阅读了一些研究主题为“海上交通安全”，研究方法偏向于运筹优化的论文。恰巧，实验室师兄在博后期间做过相关研究，所以首先了解了一下师兄所做的内容。这篇论文的信息如下：
-Liujiang Kang, Qiang Meng, Kok Choon Tan,
-Tugboat scheduling under ship arrival and tugging process time uncertainty,
-Transportation Research Part E: Logistics and Transportation Review, 144,2020, 102125, https://doi.org/10.1016/j.tre.2020.102125.
+
+Kang, L., Meng, Q., &#38; Tan, K. C. (2020). Tugboat scheduling under ship arrival and tugging process time uncertainty. <i>Transportation Research Part E: Logistics and Transportation Review</i>, <i>144</i>. https://doi.org/10.1016/j.tre.2020.102125
+
 
 ## 摘要
 这项研究解决了有趣的拖船调度问题，该问题考虑了大型集装箱港口船舶到达和拖船过程时间的不确定性。不确定的船舶到达和拖船过程时间被制定为一组可以从历史港口交通数据生成的离散场景。通过整合主动和反应式调度策略来处理不确定性，使得这项研究与现有文献中的大多数研究不同。主动调度策略考虑了拖船船队日程执行期间的预期变化度，而反应式调度策略则适当调整初始日程以应对意外场景并最小化恢复成本。为所提出的拖船调度问题建立了一个混合整数线性规划模型。为了处理大规模问题，设计了一种特设算法来生成拖船链，以便有效地解决大规模问题。最后，进行了广泛的数值实验来展示本研究开发的模型和算法的实际意义。
