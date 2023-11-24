@@ -210,4 +210,7 @@ $$
 1. 文中限制每个拖船只为一个船舶提供服务，但实际中应该是可以多条拖船同时为同一船舶提供服务。因此，未来可以考虑这一场景下的拖船调度，同时再考虑拖船马力的异质性，这样进行拖船的调度会与本文非常不同。
 2. 文中考虑的是船舶到达时间和拖船工作时间的不确定性，但是船舶到达的数量是否也是不确定的呢。但反过来，作者之所以没有考虑这一点的不确定性，可能因为水运的速度比较慢，加上船舶的AIS系统，港口往往能够提前很长时间知道有多少船舶到达。所以不需要研究船舶到达数量的不确定性。这一点还需要了解一下其他相关研究是怎么做的。
 
+**参考文献**
+1. Kang, L., Meng, Q., &#38; Tan, K. C. (2020). Tugboat scheduling under ship arrival and tugging process time uncertainty. <i>Transportation Research Part E: Logistics and Transportation Review</i>, <i>144</i>. https://doi.org/10.1016/j.tre.2020.102125
+
 ------
