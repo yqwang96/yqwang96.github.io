@@ -28,4 +28,22 @@ tags:
 ### 2.1 网约系统运行流程
 在该研究中，网约出行系统的新乘客提交他们的出行请求，指定出行起点、出行终点以及最晚的接送时间。平台检查乘客的等待时间是否超出了他们的最大等待时间限制，同时处理之前未匹配的出行请求。除了因长时间等待而取消出行请求的乘客外，其他乘客将被匹配。没有匹配的乘客将继续等待下一时间窗的匹配。对于成功匹配的乘客，平台将生成一个服务菜单，提供拼车出行的折扣和绕行时间，以及快车出行和拼车出行的行程费用和预期等待时间。在收到服务菜单后，乘客将根据他们的需求选择服务。如果乘客选择快车服务，则行程报价立刻生效；如果乘客选择拼车服务，则假设平台会在确认报价前进行公平性检查。
 
-![TFlowchart showing the interactions among travellers, vehicles, and the MoD platform](https://github.com/yqwang96/yqwang96.github.io/blob/master/images/Blog6FlowChart.jpg?raw=true)
+![Flowchart showing the interactions among travellers, vehicles, and the MoD platform](https://github.com/yqwang96/yqwang96.github.io/blob/master/images/Blog6FlowChart.jpg?raw=true)
+
+此外，如果乘客对任何一种行程报价不满意，乘客会主动拒绝报价，并退出系统。
+
+### 2.2 不同类型的乘客
+假设乘客对成本和服务质量敏感，并且具有不同的共享意愿，这些差异反映在他们的效用系数上。当平台提供明确的服务菜单后，乘客会选择他们效用最大化的出行模式。乘客$p$的效用可通过下式进行量化。
+
+$$
+u_p^h = \beta_p^h - \beta_p^t w_p^h - \beta_p^f f_p^h
+$$
+
+$$
+u_p^s = \beta_p^s - \beta_p^t (w_p^s+\delta_p) - \beta_p^f f_p^s
+$$
+
+$$
+u_p^o = \beta_p^o
+$$
+其中，$\beta_p^h, \beta_p^s, \beta_p^o$分别是反映快车、拼车和其他出行模式的固有出行质量；
