@@ -271,5 +271,7 @@ $$
 - 这篇研究的不同之处在于考虑拼车和快车，和乘客的个人倾向。
 
 **References**
+
 - Zhou, Z., Roncoli, C., &#38; Sipetas, C. (2023). Optimal matching for coexisting ride-hailing and ridesharing services considering pricing fairness and user choices. <i>Transportation Research Part C: Emerging Technologies</i>, <i>156</i>. https://doi.org/10.1016/j.trc.2023.104326
+
 ----
