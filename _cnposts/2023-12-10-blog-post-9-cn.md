@@ -9,7 +9,7 @@ tags:
 ---
 
 
-最近，因为想要对比下网约出行与共享汽车，所以读了下这一篇研究网约车和出租车的研究。论文信息如下：<div class="csl-entry">Wang, Z., Zhang, Y., Jia, B., &#38; Gao, Z. (2024). Comparative Analysis of Usage Patterns and Underlying Determinants for Ride-hailing and Traditional Taxi Services: A Chicago Case Study. <i>Transportation Research Part A: Policy and Practice</i>, <i>179</i>. https://doi.org/10.1016/j.tra.2023.103912</div>
+最近，因为想要对比下网约出行与共享汽车，所以读了下这一篇研究网约车和出租车的研究。论文信息如下：Wang, Z., Zhang, Y., Jia, B., &#38; Gao, Z. (2024). Comparative Analysis of Usage Patterns and Underlying Determinants for Ride-hailing and Traditional Taxi Services: A Chicago Case Study. <b><i>Transportation Research Part A: Policy and Practice</i></b>, <i>179</i>. https://doi.org/10.1016/j.tra.2023.103912
 
 ## 0. 摘要
 随着基于手机应用的网约车服务在全球范围内的迅猛发展，传统出租车业正面临空前的挑战。本研究选取芝加哥为案例，深入比较了网约车与传统出租车这两种提供门到门服务的出行模式。我们研究了社会人口特征和城市土地使用情况如何影响这两种服务在不同时间和地点的使用情况。主要采用了一种称为地理和时间加权回归（GTWR）的局部回归模型，该模型能够捕捉变量间的时空非稳定性。通过四个GTWR模型，我们预测了芝加哥各社区区域在工作日和周末的平均每小时网约车和出租车行程量，这些模型的R^2值均超过0.98。非稳定性测试表明，所有变量都显示出额外的局部变异性，这突显了使用GTWR模型来探讨时空影响的重要性。我们还建立了空间误差模型（SEM）和普通最小二乘法（OLS）模型作为全局回归模型，用于比较和作为参考。通过聚类分析，我们展示了全局与局部回归模型之间的差异。为了深入了解网约车和出租车使用模式的不同，我们分析了GTWR模型中时空变化的系数。研究结果揭示了许多有趣的发现，例如芝加哥南部地区人口强大的出行生成能力、白人对出租车持积极态度但对网约车态度不明确、年轻人在工作日与周末对出租车服务态度的不同，以及在某些区域内公交与出租车或网约车之间的相反关系。基于这些关键发现，我们提出了一些规划和运营建议，如开发移动应用程序、实施与价格相关的策略、加强与当地企业的合作、建设多模式交通系统、明确针对不同客户群的策略、提供附加服务等。
