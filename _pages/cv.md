@@ -16,7 +16,7 @@ Education
 * B.S. in Traffic engineering, Qingdao University of Technology, 2014-2018
 * M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018-2019 (continued study as Ph.D candidate)
 * Visiting Ph.D in Graduate School for International Development and Cooperation (IDEC), Hiroshima University, 2022-2023
-* Ph.D in System science, Beijing Jiaotong University, 2019-2024 (expected)
+* Ph.D in System science, Beijing Jiaotong University, 2019-2024
   
 Skills
 ======
