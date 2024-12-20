@@ -13,6 +13,7 @@ redirect_from:
 I am a Data Scientist in A Company of Beijing. I earned my Bachelor of Engineering degree from Qingdao University of Technology in 2018. Following this, I pursued a Master’s degree in Transportation Planning and Management at Beijing Jiaotong University. I then continued my studies at the School of System Science at Beijing Jiaotong University in a combined Master’s and Ph.D. program, where my doctoral research focused on driver-passenger matching and vehicle dispatch optimization in the ride-sourcing market. My research interests also include reinforcement learning, deep learning, operations research, and large-scale simulation. Since graduating, I have worked as a Data Scientist at a company based in Beijing, where I am involved in projects related to Hadoop scheduling, large language models, and advanced data science applications.
 
 ----
+
 News
 ======
 * **Oct 22 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today, I fixed two bugs in [Ragflow](https://github.com/infiniflow/ragflow) and became a **contributor** to the famous RAG framework.
@@ -20,6 +21,7 @@ News
 * **Jun 01 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I successfully defended my PhD thesis today! 🎉
 
 ----
+
 Latest posts
 ======
 * **Oct 13 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to Map Files from a Docker Image to the Host Machine During Image Creation?](https://yqwang96.github.io/posts/2024/10/blog-post-18/)
