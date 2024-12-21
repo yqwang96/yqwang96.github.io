@@ -10,7 +10,9 @@ redirect_from:
 
 **_Curiosity and imagination drive me to explore the vast expanse of knowledge in the world._**
 
-I am a Data Scientist in A Company of Beijing. I earned my Bachelor of Engineering degree from Qingdao University of Technology in 2018. Following this, I pursued a Master’s degree in Transportation Planning and Management at Beijing Jiaotong University. I then continued my studies at the School of System Science at Beijing Jiaotong University in a combined Master’s and Ph.D. program, where my doctoral research focused on driver-passenger matching and vehicle dispatch optimization in the ride-sourcing market. My research interests also include reinforcement learning, deep learning, operations research, and large-scale simulation. Since graduating, I have worked as a Data Scientist at a company based in Beijing, where I am involved in projects related to Hadoop scheduling, large language models, and advanced data science applications.
+I am a Data Scientist at a Beijing-based company, with a strong academic and research background in data science and transportation systems. I earned my Bachelor of Engineering degree from Qingdao University of Technology in 2018. Subsequently, I pursued a Master’s degree in Transportation Planning and Management at Beijing Jiaotong University. Building on this foundation, I enrolled in a combined Master’s and Ph.D. program at the School of System Science at Beijing Jiaotong University, where my doctoral research focused on optimizing driver-passenger matching and vehicle dispatch in the ride-sourcing market.
+
+My broader research interests span reinforcement learning, deep learning, operations research, and large-scale simulation. Since completing my Ph.D., I have been applying my expertise as a Data Scientist, working on projects involving Hadoop scheduling, large language models, applied operation research and cutting-edge data science applications.
 
 ----
 
