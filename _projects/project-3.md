@@ -30,6 +30,8 @@ Beyond mere data, the human impact is undeniable. People miss important meetings
 
 This system is a multi-modal traffic simulation and forecasting platform based on a **super-network model**. It is designed to assess the multidimensional impacts of various road disruption events on urban traffic. By integrating and modeling subway, car, and bus networks, the system dynamically simulates behavioral changes in travel patterns under different event scenarios and provides actionable insights to mitigate inconvenience for everyday travelers.
 
+![Simulation Visualization](/images/project-3/Simulation%20Visualization.png)
+
 ---
 
 ## **3. Core Functions of the System**

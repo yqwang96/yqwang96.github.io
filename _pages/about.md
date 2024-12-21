@@ -26,6 +26,6 @@ News
 
 Latest posts
 ======
+* **Dec 21 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Performance and Cost-Efficient Spark Job  Scheduling Based on Deep Reinforcement  Learning in Cloud Computing Environments] Study Notes](https://yqwang96.github.io//posts/2024/12/blog-post-19/) 
 * **Oct 13 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to Map Files from a Docker Image to the Host Machine During Image Creation?](https://yqwang96.github.io/posts/2024/10/blog-post-18/)
 * **Oct 11 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dynamic scheduling of flexible bus services with hybrid requests and fairness: Heuristics-guided multi-agent reinforcement learning with imitation learning Study Notes](https://yqwang96.github.io/posts/2024/10/blog-post-17/)
-* **Sep 22 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[The summary of connecting Ragflow to Langchain and Milvus](https://yqwang96.github.io/posts/2024/09/blog-post-16/) 
