@@ -11,4 +11,4 @@ paperurl: 'https://ieeexplore.ieee.org/document/10128792'
 ---
 This research proposes a two-stage reassignment framework for ride-sourcing markets, integrating a reinforcement learning algorithm and a bilateral matching model, which has been demonstrated to enhance passenger experience, reduce driving costs, and contribute to eco-friendly travel by learning passenger travel patterns and adjusting vehicle reassignment timings.
 
-[Download paper here](https://ieeexplore.ieee.org/document/10128792)
+<!-- [Download paper here](https://ieeexplore.ieee.org/document/10128792) -->
