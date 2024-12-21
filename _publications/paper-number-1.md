@@ -3,7 +3,7 @@ title: "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcemen
 collection: publications
 permalink: /publication/paper-number-1
 excerpt: 'This research proposes a two-stage reassignment framework for ride-sourcing markets, integrating a reinforcement learning algorithm and a bilateral matching model, which has been demonstrated to enhance passenger experience, reduce driving costs, and contribute to eco-friendly travel by learning passenger travel patterns and adjusting vehicle reassignment timings.'
-date: 2023-05-15
+date: 2024-01-16
 venue: 'IEEE Transactions on Intelligent Transportation Systems'
 paperurl: 'https://ieeexplore.ieee.org/document/10128792'
 # citation: 'Y. Wang, J. Wu, H. Sun, Y. Lv and G. Xu, "Reassignment Algorithm of the Ride-Sourcing Market Based on Reinforcement Learning," in IEEE Transactions on Intelligent Transportation Systems, doi: 10.1109/TITS.2023.3274636.'
@@ -15,7 +15,7 @@ As a researcher deeply involved in improving ride-sourcing systems, I am excited
 #### **Understanding the Problem**
 Ride-sourcing platforms face significant hurdles in matching drivers and passengers effectively, especially in real-time dynamic urban environments. Existing reassignment strategies often focus on short-term optimization, neglecting potential opportunities for long-term efficiency improvements. Additionally, these solutions sometimes prioritize system-wide benefits over individual user experiences, leading to increased passenger wait times or assigning drivers to distant pick-up points.
 
-![Problem Description](/images/problem-background.png)
+![Problem Description](/images/paper-1/problem-background.png)
 
 To address these limitations, we developed a novel **two-stage reassignment framework** called RL-BMR (Reinforcement Learning-Bilateral Matching Reassignment). This framework dynamically optimizes the reassignment process by integrating reinforcement learning with a personalized matching model, ensuring a balance between passenger satisfaction, system efficiency, and long-term benefits.
 
@@ -33,7 +33,7 @@ The RL-BMR framework operates in two stages:
    - The BMR model adjusts matching relationships between vehicles and passengers to minimize driving distances and waiting times.
    - To enhance individual satisfaction, we developed a **personalized BMR-Pareto model**, ensuring no participant’s experience is worsened during the reassignment process.
 
-![Research Framework of RL-BMR](/images/research-framework.png)
+![Research Framework of RL-BMR](/images/paper-1/research-framework.png)
 
 ---
 
