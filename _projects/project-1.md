@@ -7,7 +7,7 @@ role: "Developer"
 date: 2022-12-01
 ---
 
-A platform that integrates ride-sourcing, shared car and shared bicycle order data, trajectory data analysis, mining and visualization, travel demand forecasting, etc.
+A platform that integrates ride-hailing services, bike-sharing, and car-sharing order data, trajectory data analysis, mining and visualization, travel demand forecasting, etc.
 
 ---
 
