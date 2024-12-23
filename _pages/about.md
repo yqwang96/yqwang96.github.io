@@ -26,6 +26,6 @@ News
 
 Latest posts
 ======
-* **Dec 21 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Performance and Cost-Efficient Spark Job  Scheduling Based on Deep Reinforcement  Learning in Cloud Computing Environments] Study Notes](https://yqwang96.github.io//posts/2024/12/blog-post-19/) 
-* **Oct 13 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to Map Files from a Docker Image to the Host Machine During Image Creation?](https://yqwang96.github.io/posts/2024/10/blog-post-18/)
-* **Oct 11 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dynamic scheduling of flexible bus services with hybrid requests and fairness: Heuristics-guided multi-agent reinforcement learning with imitation learning Study Notes](https://yqwang96.github.io/posts/2024/10/blog-post-17/)
+* **Dec 25 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[HierRL: Hierarchical Reinforcement Learning for Task Scheduling in Distributed Systems] Study Notes](https://yqwang96.github.io/posts/2024/12/blog-post-22/)
+* **Dec 24 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[RLSK: A Job Scheduler for Federated Kubernetes Clusters based on Reinforcement Learning] Study Notes](https://yqwang96.github.io/posts/2024/12/blog-post-20/)
+* **Dec 23 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Understanding HeterPS: A Distributed Training Framework for Deep Learning in Heterogeneous Environments] Study Notes](https://yqwang96.github.io//posts/2024/12/blog-post-20/) 
