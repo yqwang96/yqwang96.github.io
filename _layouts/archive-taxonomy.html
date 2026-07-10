@@ -2,15 +2,15 @@
 layout: default
 author_profile: false
 ---
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
+<section class="content-frame taxonomy-frame">
+  <header class="page-heading">
+    <p class="page-heading__eyebrow">YINQUAN WANG / RESEARCH NOTEBOOK</p>
+    <h1>{{ page.title }}</h1>
+  </header>
   <div class="archive">
-    <h1 class="page__title">{{ page.title }}</h1>
     {% include base_path %}
     {% for post in page.posts %}
       {% include archive-single.html %}
     {% endfor %}
   </div>
-</div>
+</section>
