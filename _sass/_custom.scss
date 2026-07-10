@@ -131,6 +131,8 @@ body { background: var(--canvas); color: var(--ink); }
 .focus-card { min-height: 215px; padding: 1.65rem; }
 .card-index { color: var(--accent); font-family: monospace; font-size: .74rem; font-weight: 800; letter-spacing: .08em; }
 .focus-card h3, .work-card h3, .project-summary-grid h3 { margin: 1.45rem 0 .55rem; color: var(--ink); font-size: 1.07rem; line-height: 1.35; }
+.work-card h3 a { color: inherit; text-decoration: none; }
+.work-card h3 a:hover { color: var(--accent); }
 .focus-card p, .work-card p, .project-summary-grid p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.65; }
 
 .work-grid, .project-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }

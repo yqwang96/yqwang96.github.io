@@ -60,25 +60,25 @@ redirect_from:
 <div class="work-grid">
   <article class="work-card work-card--blue">
     <p class="work-tag">URBAN MOBILITY</p>
-    <h3>Ride-sourcing matching and dispatch</h3>
-    <p>Behavior-aware reinforcement learning for passenger–driver matching, repositioning, and cross-service dispatch.</p>
+    <h3><a href="/projects/project-1">Sharing mobility intelligence</a></h3>
+    <p>Demand analysis, travel-pattern mining, forecasting, and reinforcement-learning dispatch for shared-mobility operations.</p>
     <div class="metric-row"><span><strong>+4.15%</strong> response rate</span><span><strong>+7.30%</strong> platform revenue</span></div>
   </article>
   <article class="work-card work-card--green">
     <p class="work-tag">INDUSTRIAL OPTIMIZATION</p>
     <h3>Production scheduling</h3>
-    <p>Optimization and decision-support systems deployed across multiple manufacturing plants.</p>
+    <p>Scheduling and decision-support systems deployed across multiple manufacturing plants, translating operational constraints into usable plans.</p>
     <div class="metric-row"><span><strong>3→1 months</strong> development</span><span><strong>+1%</strong> material utilization</span></div>
   </article>
   <article class="work-card work-card--orange">
     <p class="work-tag">INDUSTRIAL CONTROL</p>
-    <h3>Intelligent district heating</h3>
-    <p>Load forecasting, temperature prediction, pump-frequency optimization, and safety-aware control recommendations.</p>
-    <div class="metric-row"><span><strong>130+</strong> stations</span><span><strong>≥10%</strong> electricity saving</span></div>
+    <h3><a href="/projects/project-5">Intelligent District Heating Control</a></h3>
+    <p>Forecasting, pump-frequency optimization, and safety-aware control recommendations for heat-exchange stations and operators.</p>
+    <div class="metric-row"><span><strong>7%</strong> heat saving</span><span><strong>10%</strong> electricity saving</span><span><strong>5%</strong> fewer complaints</span></div>
   </article>
   <article class="work-card work-card--purple">
     <p class="work-tag">AGENTIC AI</p>
-    <h3>Data science & OR agents</h3>
+    <h3><a href="/projects/project-4">Data Science & Operations Research Agents</a></h3>
     <p>Agent workflows for research automation, enterprise data QA, optimization modeling, tool execution, and verifiable post-training.</p>
     <div class="metric-row"><span><strong>CodeAct</strong> + tools</span><span><strong>Verifier</strong> + RLVR</span></div>
   </article>
