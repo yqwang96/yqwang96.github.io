@@ -30,7 +30,7 @@ body { background: var(--canvas); color: var(--ink); }
 .site-main { min-height: calc(100vh - 180px); }
 .site-main#main { max-width: none; margin: 0; padding: 0; animation: none; }
 .content-frame { max-width: 1120px; margin: 0 auto; padding: 4.4rem 0 5rem; }
-.content-frame--home { max-width: none; padding-top: 0; }
+.content-frame--home { padding-top: 0; }
 .content-frame .archive { float: none; width: auto; margin: 0; padding: 0; }
 .taxonomy-frame { max-width: 960px; }
 .splash-frame { max-width: 1120px; }
