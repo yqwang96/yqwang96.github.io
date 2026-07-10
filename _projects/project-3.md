@@ -18,6 +18,33 @@ Urban Transportation System Emergency helps planners understand the consequences
 
 Its super-network model turns scenario planning into a concrete decision-support workflow. Transportation agencies can compare event-response options, identify pressure points, and prepare measures such as temporary routes, transit capacity adjustments, or traffic-control strategies using a common, evidence-based view of the city.
 
+## Scenario-deduction workflow
+
+<div class="project-flow" aria-label="Traffic simulation workflow">
+  <div><strong>Event definition</strong><span>Closure, activity, disaster, or policy scenario</span></div>
+  <i aria-hidden="true">→</i>
+  <div><strong>Super-network</strong><span>Car, bus, metro, and transfer links</span></div>
+  <i aria-hidden="true">→</i>
+  <div><strong>Dynamic simulation</strong><span>Flow redistribution and traveler response</span></div>
+  <i aria-hidden="true">→</i>
+  <div><strong>Decision support</strong><span>Congestion, detours, and mitigation options</span></div>
+</div>
+
+<table class="project-data-table">
+  <thead><tr><th>Analysis view</th><th>Question answered</th><th>Decision use</th></tr></thead>
+  <tbody>
+    <tr><td>Unmet demand</td><td>Which trips become infeasible after a disruption?</td><td>Emergency capacity and service planning.</td></tr>
+    <tr><td>Detour and time cost</td><td>Where do closures create the largest travel burden?</td><td>Traffic-control and routing strategies.</td></tr>
+    <tr><td>Mode shift</td><td>How do travelers redistribute among car, bus, and metro?</td><td>Temporary public-transport adjustments.</td></tr>
+    <tr><td>Scenario comparison</td><td>Which intervention best reduces network impact?</td><td>Pre-event and emergency-response decisions.</td></tr>
+  </tbody>
+</table>
+
+<figure class="project-feature-figure">
+  <img src="/images/project-3/Simulation%20Visualization.png" alt="Urban traffic simulation visualization">
+  <figcaption>Interactive visualization of the multimodal traffic-simulation and scenario-deduction environment.</figcaption>
+</figure>
+
 ## **1. Background and Motivation**
 
 In modern cities, road disruption events occur frequently and vary widely, posing significant challenges to urban traffic systems. These events disrupt the daily lives of countless individuals, from commuters struggling to reach work to families planning recreational outings. Broadly, such events can be categorized as follows:  
@@ -36,8 +63,6 @@ Beyond mere data, the human impact is undeniable. People miss important meetings
 ## **2. System Overview**
 
 This system is a multi-modal traffic simulation and forecasting platform based on a **super-network model**. It is designed to assess the multidimensional impacts of various road disruption events on urban traffic. By integrating and modeling subway, car, and bus networks, the system dynamically simulates behavioral changes in travel patterns under different event scenarios and provides actionable insights to mitigate inconvenience for everyday travelers.
-
-![Simulation Visualization](/images/project-3/Simulation%20Visualization.png)
 
 ---
 

@@ -18,6 +18,28 @@ Intelligent District Heating Control turns station telemetry, weather signals, a
 
 The project was designed for real operational environments where a recommendation must be explainable and conservative, not merely optimal on paper. It supports control-room teams with traceable forecasts, anomaly-aware suggestions, and scenario comparisons before settings are changed.
 
+## From OPC data to control action
+
+<div class="project-flow" aria-label="Heating control workflow">
+  <div><strong>OPC collection</strong><span>Station telemetry and equipment status</span></div>
+  <i aria-hidden="true">→</i>
+  <div><strong>Data pipeline</strong><span>Validation, aggregation, and features</span></div>
+  <i aria-hidden="true">→</i>
+  <div><strong>Model service</strong><span>Load and temperature prediction</span></div>
+  <i aria-hidden="true">→</i>
+  <div><strong>Control review</strong><span>Safety limits and operator approval</span></div>
+</div>
+
+<table class="project-data-table">
+  <thead><tr><th>Layer</th><th>What it does</th><th>Operational output</th></tr></thead>
+  <tbody>
+    <tr><td>Data acquisition</td><td>Collects station and equipment telemetry through an OPC-connected workflow.</td><td>Reliable time-series inputs for analysis and control.</td></tr>
+    <tr><td>Model training</td><td>Learns short-term load and temperature behavior from historical operating data.</td><td>Station-level forecasts and control targets.</td></tr>
+    <tr><td>Optimization</td><td>Evaluates pump-frequency and setpoint choices against energy and safety constraints.</td><td>Auditable operating recommendations.</td></tr>
+    <tr><td>Deployment</td><td>Applies safety checks and keeps an operator in the decision loop.</td><td>Controlled execution and traceable follow-up.</td></tr>
+  </tbody>
+</table>
+
 ## Core capabilities
 
 - **Load and temperature forecasting:** estimates short-term heat demand and key temperature trajectories from historical operating and external signals.
@@ -28,6 +50,19 @@ The project was designed for real operational environments where a recommendatio
 ## Impact
 
 The solution covers **130+ heat-exchange stations** and more than **8,000 industrial data points**. In deployment-oriented evaluation, it delivered at least **10% electricity savings** while supporting stable, safety-conscious operations.
+
+## Model and deployment evidence
+
+<div class="project-figure-grid">
+  <figure>
+    <img src="/images/project-5/room-temperature-comparison.png" alt="Heating-stage room-temperature comparison">
+    <figcaption>Stage-level room-temperature comparison used to evaluate control performance.</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/project-5/room-temperature-window.png" alt="Fifteen-day rolling room-temperature statistics">
+    <figcaption>15-day rolling-window statistics showing room-temperature performance over time.</figcaption>
+  </figure>
+</div>
 
 ## Technology and methods
 
