@@ -3,10 +3,21 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+classes: wide
 ---
 
 {% include base_path %}
 
+<p class="page-intro">Research prototypes and deployed systems spanning intelligent transportation, industrial optimization, decision support, and agentic AI.</p>
+
+<div class="project-summary-grid">
+  <article><span>Industrial optimization</span><h3>Production scheduling</h3><p>Optimization systems deployed across four manufacturing plants, improving material utilization and shortening delivery cycles.</p></article>
+  <article><span>Industrial control</span><h3>District heating</h3><p>Forecasting and safety-aware optimization across 130+ heat-exchange stations and 8,000+ sensor points.</p></article>
+  <article><span>Agentic AI</span><h3>Data science & OR agent</h3><p>Executable agent workflows combining planning, Python/SQL tools, optimization solvers, verification, and RL post-training.</p></article>
+  <article><span>Industrial analytics</span><h3>Gas anomaly detection</h3><p>A scalable anomaly-detection system expanded to 33+ mines and 340+ working faces.</p></article>
+</div>
+
+## Research platforms
 
 {% for post in site.projects %}
   {% include archive-single.html %}

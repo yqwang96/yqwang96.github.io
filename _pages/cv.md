@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,60 @@ redirect_from:
 
 {% include base_path %}
 
-### Download [CN version](http://yqwang96.github.io/files/WANGYinquan-CV.pdf) or [EN version](http://yqwang96.github.io/files/WANGYinquan-CV-En.pdf)
+<p class="cv-download">Download: <a href="https://yqwang96.github.io/files/WANGYinquan-CV.pdf">Chinese CV</a> · <a href="https://yqwang96.github.io/files/WANGYinquan-CV-En.pdf">English CV</a></p>
 
-Work Experience
-======
-* Data Scientist, R&D Department, Beijing Medical Health Large Model Co., Ltd., 2024.07-now
-  * Main works: Industrial Internet, Operational Optimization, Deep Learning
-* Assistant engineer, Traffic Information Center, Beijing Transportation Commission, 2019.03-2019.06
-  * Formulate the "Specifications for Labeling Text Information of Transportation Video Images" 
+## Profile
 
-Education
-======
-* Ph.D in System science, Beijing Jiaotong University, 2019-2024
-* Visiting Ph.D in Graduate School for International Development and Cooperation (IDEC), Hiroshima University, 2022-2023
-* M.S. in Transportation Planning and Management, Beijing Jiaotong University, 2018-2019 (continued study as Ph.D candidate)
-* B.S. in Traffic engineering, Qingdao University of Technology, 2014-2018
-  
-Skills
-======
-* Deep Learning
-  * Pytorch, Gym, Stable-baselines3
-* Data Science
-  * Pandas, Numpy, Scipy, Scikit-learn, Spark
-* Operations Research
-  * cplex, DOcplex
-* Visulization
-  * Matplotlib, Echarts, seaborn, leaflet, Mapboxgl
-* Website Development
-  * Django, JavaScript, React, Django REST Framework, Axios, AntDesign
+Data scientist and researcher working at the intersection of reinforcement learning, operations research, and agentic AI. Experienced in translating research prototypes into decision systems for transportation, manufacturing, district heating, and industrial analytics.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Projects
-======
-  <ul>{% for post in site.projects %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+## Experience
 
-Reward
-======
-* The National Second Prize of the Second Digital China Innovation Competition, 2020, Fuzhou, China
-* The National Third Prize of Mathematical Contest in Modeling for Chinese Graduate Students, 2019, Beijing, China
-* Beijing Jiaotong University Doctoral Scholarship, 2019, 2020, 2021
+**Data Scientist, Beijing** <span class="cv-date">2024.07–present</span><br>
+Industrial intelligence, operational optimization, large language models, and data-science agents.
 
+**Assistant Engineer, Beijing Transportation Commission** <span class="cv-date">2019.03–2019.06</span><br>
+Contributed to the *Specifications for Labeling Text Information of Transportation Video Images*.
+
+## Education
+
+**Ph.D. in System Science, Beijing Jiaotong University** <span class="cv-date">2019–2024</span><br>
+Dissertation: passenger–driver matching and vehicle dispatch algorithms in ride-sourcing markets.
+
+**Visiting Ph.D. Researcher, Hiroshima University** <span class="cv-date">2022–2023</span>
+
+**M.S. in Transportation Planning and Management, Beijing Jiaotong University** <span class="cv-date">2018–2019</span><br>
+Continued in the combined master's and doctoral program.
+
+**B.Eng. in Traffic Engineering, Qingdao University of Technology** <span class="cv-date">2014–2018</span>
+
+## Research and engineering
+
+- **Agentic AI and post-training:** CodeAct, ReAct, tool-use environments, trajectory synthesis, verifiers, SFT, RLHF, PPO, GRPO, and RLVR.
+- **Operations research:** mathematical programming, scheduling, matching, vehicle routing, column generation, predict-then-optimize, CPLEX/DOcplex, and open-source solvers.
+- **Machine learning:** PyTorch, scikit-learn, LightGBM, time-series forecasting, causal inference, and reinforcement learning.
+- **Systems and applications:** Python, SQL, Spark, Hadoop, vLLM, RAG, Django, React, simulation, and data visualization.
+
+## Selected impact
+
+- Developed reinforcement-learning dispatch methods that improved ride-sourcing response rate by **4.15%** and platform revenue by **7.30%**.
+- Built industrial scheduling systems deployed across multiple factories, reducing development time from **three months to one** and improving steel utilization by **1%**.
+- Developed an intelligent district-heating solution covering **130+ heat-exchange stations** and **8,000+ industrial data points**, achieving at least **10% electricity savings**.
+- Delivered a gas-anomaly detection solution whose false-alarm rate decreased by **25%**, subsequently expanded to **33+ mines** and **340+ working faces**.
+
+## Publications
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+## Projects
+
+<ul>{% for post in site.projects %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+## Honors
+
+- National Second Prize, Digital China Innovation Competition, 2020.
+- National Third Prize, Mathematical Contest in Modeling for Chinese Graduate Students, 2019.
+- Beijing Jiaotong University Doctoral Scholarship, 2019–2021.

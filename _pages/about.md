@@ -1,31 +1,107 @@
 ---
 permalink: /
-title: "Yinquan WANG/王印权"
-excerpt: "About me"
+title: "Yinquan WANG / 王印权"
+excerpt: "Reinforcement Learning · Operations Research · Agentic AI"
 author_profile: true
-redirect_from: 
+classes: wide
+redirect_from:
   - /about/
   - /about.html
 ---
 
-**_Curiosity and imagination drive me to explore the vast expanse of knowledge in the world._**
+<section class="home-hero">
+  <p class="home-eyebrow">DATA SCIENTIST · RESEARCHER</p>
+  <h1>Learning and optimization for<br><span>real-world decision systems.</span></h1>
+  <p class="home-lead">I work at the intersection of reinforcement learning, operations research, and agentic AI. My research turns complex decisions in transportation and industrial systems into models that can learn, optimize, and operate at scale.</p>
+  <div class="home-actions">
+    <a class="btn btn--primary" href="/projects/">Explore projects</a>
+    <a class="btn btn--light-outline" href="/cv/">View CV</a>
+  </div>
+</section>
 
-I am a Data Scientist at a Beijing-based company, with a strong academic and research background in data science and transportation systems. I earned my Bachelor of Engineering degree from Qingdao University of Technology in 2018. Subsequently, I pursued a Master’s degree in Transportation Planning and Management at Beijing Jiaotong University. Building on this foundation, I enrolled in a combined Master’s and Ph.D. program at the School of System Science at Beijing Jiaotong University, where my doctoral research focused on optimizing driver-passenger matching and vehicle dispatch in the ride-sourcing market.
+## Research focus
 
-My broader research interests span reinforcement learning, deep learning, operations research, and large-scale simulation. Since completing my Ph.D., I have been applying my expertise as a Data Scientist, working on projects involving Hadoop scheduling, large language models, applied operation research and cutting-edge data science applications.
+<div class="focus-grid">
+  <article class="focus-card">
+    <span class="card-index">01</span>
+    <h3>Agentic AI & RL Post-training</h3>
+    <p>Tool-using agents for data science and optimization, with an emphasis on trajectory synthesis, verifiers, RLVR, and reliable execution.</p>
+  </article>
+  <article class="focus-card">
+    <span class="card-index">02</span>
+    <h3>Learning-augmented Optimization</h3>
+    <p>Reinforcement learning, predict-then-optimize, and solver-based decision systems for dynamic and large-scale problems.</p>
+  </article>
+  <article class="focus-card">
+    <span class="card-index">03</span>
+    <h3>Transportation & Industrial Intelligence</h3>
+    <p>Data-driven matching, dispatching, scheduling, industrial control, and simulation for operational systems.</p>
+  </article>
+</div>
 
-----
+## Selected work
 
-News
-======
-* **Oct 22 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today, I fixed two bugs in [Ragflow](https://github.com/infiniflow/ragflow) and became a **contributor** to the famous RAG framework.
-* **Jul 12 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm excited to start my journey as a data scientist at a healthcare AI company in Beijing!🎉
-* **Jun 01 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I successfully defended my PhD thesis today! 🎉
+<div class="work-grid">
+  <article class="work-card work-card--blue">
+    <p class="work-tag">URBAN MOBILITY</p>
+    <h3>Ride-sourcing matching and dispatch</h3>
+    <p>Behavior-aware reinforcement learning for passenger–driver matching, repositioning, and cross-service dispatch.</p>
+    <div class="metric-row"><span><strong>+4.15%</strong> response rate</span><span><strong>+7.30%</strong> platform revenue</span></div>
+  </article>
+  <article class="work-card work-card--green">
+    <p class="work-tag">INDUSTRIAL OPTIMIZATION</p>
+    <h3>Production scheduling</h3>
+    <p>Optimization and decision-support systems deployed across multiple manufacturing plants.</p>
+    <div class="metric-row"><span><strong>3→1 months</strong> development</span><span><strong>+1%</strong> material utilization</span></div>
+  </article>
+  <article class="work-card work-card--orange">
+    <p class="work-tag">INDUSTRIAL CONTROL</p>
+    <h3>Intelligent district heating</h3>
+    <p>Load forecasting, temperature prediction, pump-frequency optimization, and safety-aware control recommendations.</p>
+    <div class="metric-row"><span><strong>130+</strong> stations</span><span><strong>≥10%</strong> electricity saving</span></div>
+  </article>
+  <article class="work-card work-card--purple">
+    <p class="work-tag">AGENTIC AI</p>
+    <h3>Data science & OR agents</h3>
+    <p>CodeAct agents that inspect data, execute analysis, call optimization tools, verify results, and produce reusable artifacts.</p>
+    <div class="metric-row"><span><strong>Tools</strong> + execution</span><span><strong>Verifier</strong> + RLVR</span></div>
+  </article>
+</div>
 
-----
+<p class="section-link"><a href="/projects/">View all projects →</a></p>
 
-Latest posts
-======
-* **Dec 25 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[HierRL: Hierarchical Reinforcement Learning for Task Scheduling in Distributed Systems] Study Notes](https://yqwang96.github.io/posts/2024/12/blog-post-22/)
-* **Dec 24 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[RLSK: A Job Scheduler for Federated Kubernetes Clusters based on Reinforcement Learning] Study Notes](https://yqwang96.github.io/posts/2024/12/blog-post-20/)
-* **Dec 23 2024**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Understanding HeterPS: A Distributed Training Framework for Deep Learning in Heterogeneous Environments] Study Notes](https://yqwang96.github.io//posts/2024/12/blog-post-20/) 
+## Selected publications
+
+<div class="publication-list">
+  <article>
+    <span>2024 · IEEE T-ITS</span>
+    <h3><a href="/publication/paper-number-4">Promoting Collaborative Dispatching in the Ride-Sourcing Market With a Third-Party Integrator</a></h3>
+  </article>
+  <article>
+    <span>2024 · Computers & Industrial Engineering</span>
+    <h3><a href="/publication/paper-number-3">Reinforcement Learning-Based Order-Dispatching Optimization in Ride-Sourcing Service</a></h3>
+  </article>
+  <article>
+    <span>2023 · Journal of Central South University</span>
+    <h3><a href="/publication/paper-number-2">Order Dispatching Optimization in Ride-Sourcing Market by Considering Cross Service Modes</a></h3>
+  </article>
+</div>
+
+<p class="section-link"><a href="/publications/">View all publications →</a></p>
+
+## Latest writing
+
+<div class="latest-list">
+{% for post in site.posts limit:5 %}
+  <a href="{{ post.url }}">
+    <time>{{ post.date | date: "%Y.%m.%d" }}</time>
+    <span>{{ post.title }}</span>
+  </a>
+{% endfor %}
+</div>
+
+## About
+
+I received my Ph.D. in System Science from Beijing Jiaotong University in June 2024. My doctoral research focused on passenger–driver matching and vehicle dispatch in ride-sourcing markets. I now work as a data scientist in Beijing, developing data-driven decision systems for industrial control, operational optimization, and agentic AI.
+
+I am interested in research collaborations around optimization agents, reinforcement learning with verifiable rewards, open-source solvers, and learning-augmented operations research.

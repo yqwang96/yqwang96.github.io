@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yinquan WANG (王印权) / Home page"
+title                    : "Yinquan Wang | Decision Intelligence"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Yinquan Wang"
+description              : &description "Reinforcement learning, operations research, and agentic AI for real-world decision systems."
 url                      : https://yqwang96.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yqwang96/yqwang96.github.io"
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # Add a GA4 provider and tracking ID when analytics is needed.
   google:
     tracking_id          :
 
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yinquan WANG/王印权"
   avatar           : "profile.png"
-  bio              : "Data Scientist"
+  bio              : "Data Scientist · RL · OR · Agentic AI"
   location         : "Beijing"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
