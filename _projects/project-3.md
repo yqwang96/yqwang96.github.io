@@ -5,11 +5,18 @@ type: "Simulation and Training Reinforcement Learning Environment"
 permalink: /projects/project-3
 role: "Developer"
 date: 2022-11-30
+excerpt: "A multimodal emergency-simulation platform that quantifies how planned and unplanned disruptions reshape urban travel, congestion, detours, and transit demand."
 ---
 
-Deduction and simulation platform for urban transportation system under planned events and unplanned events.
+A multimodal deduction and simulation platform for urban transportation systems under planned events and unplanned disruptions.
 
 ---
+
+## Project brief
+
+Urban Transportation System Emergency helps planners understand the consequences of disruptions before they become unmanageable. Given a road closure, large event, fire, flood, or other scenario, the system simulates how travelers redistribute across private cars, buses, and metro networks, then reports the resulting unmet demand, detours, travel-time impact, and mode shift.
+
+Its super-network model turns scenario planning into a concrete decision-support workflow. Transportation agencies can compare event-response options, identify pressure points, and prepare measures such as temporary routes, transit capacity adjustments, or traffic-control strategies using a common, evidence-based view of the city.
 
 ## **1. Background and Motivation**
 
@@ -116,4 +123,3 @@ This system integrates multi-modal transportation networks to establish a compre
 4. **Stochastic Travel Behavior Modeling**: Introducing more stochastic travel choice behavior models to better reflect the diverse decision-making processes of individuals under unexpected circumstances.
 
 This system is not just a tool for improving traffic management but a step towards creating urban environments that prioritize the well-being of their citizens. By addressing the daily frustrations caused by traffic disruptions, it contributes to building smarter, more empathetic cities.
-

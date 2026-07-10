@@ -5,11 +5,18 @@ type: "Simulation and Track Platform"
 permalink: /projects/project-1
 role: "Developer"
 date: 2022-12-01
+excerpt: "A decision-intelligence platform that turns multi-source shared-mobility data into demand forecasts, travel-pattern insights, and interactive operational views."
 ---
 
-A platform that integrates ride-hailing services, bike-sharing, and car-sharing order data, trajectory data analysis, mining and visualization, travel demand forecasting, etc.
+A decision-intelligence platform for integrating ride-hailing, bike-sharing, and car-sharing data into operational insight and planning support.
 
 ---
+
+## Project brief
+
+SMART brings fragmented shared-mobility data into one research and decision-support workflow. It combines trip and trajectory analysis, travel-pattern mining, demand forecasting, and map-based visualization so operators can understand what is happening now and prepare for what is likely to happen next.
+
+The platform is designed for transport researchers, planners, and mobility-service teams who need to compare modes, inspect spatial-temporal demand, and translate large operational datasets into practical service or regulation decisions. Its React and Django architecture keeps data services, models, and interactive views independently extensible.
 
 ### Introduction
 

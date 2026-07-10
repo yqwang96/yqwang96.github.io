@@ -5,11 +5,18 @@ type: "Simulation and Training Reinforcement Learning Environment"
 permalink: /projects/project-2
 role: "Developer"
 date: 2022-11-30
+excerpt: "A configurable ride-sourcing simulator for evaluating reinforcement-learning policies across dispatching, matching, repositioning, and spatiotemporal pricing."
 ---
 
-A simulation environment for the ride-sourcing system that supports reinforcement learning-based dispatching algorithms, reposition algorithms, and space-time pricing algorithms.
+A simulation and training environment for reinforcement-learning methods in ride-sourcing dispatching, matching, repositioning, and spatiotemporal pricing.
 
 ---
+
+## Project brief
+
+Ride-sourcing Gym is an experimental environment for testing how operational decisions interact in a dynamic mobility market. Rather than evaluating matching, vehicle dispatching, or pricing in isolation, it provides a shared simulation loop where policies can be trained and compared under the same supply, demand, and time-space conditions.
+
+The environment exposes configurable order-matching, repositioning, and pricing mechanisms, as well as benchmark reinforcement-learning interfaces. It helps researchers move quickly from a policy idea to a reproducible comparison, while making the trade-offs among service quality, driver utilization, and platform performance visible.
 
 With the rapid development of ride-hailing services, optimizing vehicle dispatching, order matching, and dynamic pricing models using intelligent methods has become a key focus for researchers. In this field, Reinforcement Learning (RL) has proven to be a powerful tool for tackling complex decision-making problems. However, most current research focuses on optimizing individual models, lacking a unified platform to explore the interactions and performance of multiple models working together. To address this gap, we have developed a specialized RL simulation environment for ride-hailing services, providing researchers with a unified, open, and flexible tool for their studies.
 

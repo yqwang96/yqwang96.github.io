@@ -5,11 +5,18 @@ type: "Agentic AI and Post-training"
 permalink: /projects/project-4
 role: "Developer and Researcher"
 date: 2025-06-01
+excerpt: "Tool-using AI agents that connect data analysis, enterprise knowledge work, optimization solvers, artifacts, and verifier-driven post-training into reliable decision workflows."
 ---
 
 Tool-using AI agents for data analysis, enterprise knowledge work, mathematical optimization, artifact generation, and verifier-driven post-training.
 
 ---
+
+## Project brief
+
+This project family builds AI agents that can do more than converse: they inspect files, query data, write and run code, invoke optimization solvers, create reports, and check whether an answer is actually valid. The focus is on reliable end-to-end work for data-science and operations-research tasks, including approval checkpoints and recovery when long-running tool calls are interrupted.
+
+It combines practical agent systems with research on executable trajectories, verifiers, and reinforcement learning with verifiable rewards. The result is a platform for studying and deploying agents that can produce auditable artifacts and support real operational decisions.
 
 ## Overview
 
