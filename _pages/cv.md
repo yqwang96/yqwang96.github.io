@@ -13,12 +13,12 @@ redirect_from:
 
 ## Profile
 
-Data scientist and researcher working at the intersection of reinforcement learning, operations research, and agentic AI. Experienced in translating research prototypes into decision systems for transportation, manufacturing, district heating, and industrial analytics.
+Data scientist and researcher working at the intersection of reinforcement learning, operations research, and agentic AI. Experienced in translating research prototypes into decision systems for transportation, manufacturing, district heating, industrial analytics, and tool-using AI agents.
 
 ## Experience
 
-**Data Scientist, Beijing** <span class="cv-date">2024.07–present</span><br>
-Industrial intelligence, operational optimization, large language models, and data-science agents.
+**Data Scientist, R&D Department, Beijing Medical Health Large Model Co., Ltd.** <span class="cv-date">2024.07-present</span><br>
+Industrial internet, operational optimization, deep learning, large language models, and data-science agents.
 
 **Assistant Engineer, Beijing Transportation Commission** <span class="cv-date">2019.03–2019.06</span><br>
 Contributed to the *Specifications for Labeling Text Information of Transportation Video Images*.
@@ -37,10 +37,17 @@ Continued in the combined master's and doctoral program.
 
 ## Research and engineering
 
-- **Agentic AI and post-training:** CodeAct, ReAct, tool-use environments, trajectory synthesis, verifiers, SFT, RLHF, PPO, GRPO, and RLVR.
+- **Agentic AI and post-training:** CodeAct, ReAct, MCP-style tool integration, tool-use environments, trajectory synthesis, verifiers, SFT, RLHF, PPO, GRPO, and RLVR.
 - **Operations research:** mathematical programming, scheduling, matching, vehicle routing, column generation, predict-then-optimize, CPLEX/DOcplex, and open-source solvers.
 - **Machine learning:** PyTorch, scikit-learn, LightGBM, time-series forecasting, causal inference, and reinforcement learning.
 - **Systems and applications:** Python, SQL, Spark, Hadoop, vLLM, RAG, Django, React, simulation, and data visualization.
+
+## Agentic AI projects
+
+- **Data science agent platform:** multi-user agent workflow with project workspaces, model/provider configuration, file upload, artifact rendering, and human approval recovery for long-running tool calls.
+- **Business data QA agent:** single-agent chain for enterprise data query, knowledge QA, artifact generation, and platform-function orchestration.
+- **OR-Agent / solver agent research:** tool-using optimization agents that translate natural-language tasks into mathematical models, call solvers, inspect outputs, and learn from verifier-driven feedback.
+- **Post-training environments:** CodeAct-style trajectories, executable tools, verifiable rewards, and RLVR-oriented data construction for reliable research and analysis agents.
 
 ## Selected impact
 
@@ -48,6 +55,7 @@ Continued in the combined master's and doctoral program.
 - Built industrial scheduling systems deployed across multiple factories, reducing development time from **three months to one** and improving steel utilization by **1%**.
 - Developed an intelligent district-heating solution covering **130+ heat-exchange stations** and **8,000+ industrial data points**, achieving at least **10% electricity savings**.
 - Delivered a gas-anomaly detection solution whose false-alarm rate decreased by **25%**, subsequently expanded to **33+ mines** and **340+ working faces**.
+- Built agentic AI prototypes that combine file/context management, tool execution, approval checkpoints, artifact generation, and optimization/data-analysis workflows.
 
 ## Publications
 

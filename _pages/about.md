@@ -10,13 +10,20 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <p class="home-eyebrow">DATA SCIENTIST · RESEARCHER</p>
-  <h1>Learning and optimization for<br><span>real-world decision systems.</span></h1>
-  <p class="home-lead">I work at the intersection of reinforcement learning, operations research, and agentic AI. My research turns complex decisions in transportation and industrial systems into models that can learn, optimize, and operate at scale.</p>
-  <div class="home-actions">
-    <a class="btn btn--primary" href="/projects/">Explore projects</a>
-    <a class="btn btn--light-outline" href="/cv/">View CV</a>
+  <div class="hero-copy">
+    <p class="home-eyebrow">DATA SCIENTIST · RESEARCHER</p>
+    <h1>Learning and optimization for<br><span>real-world decision systems.</span></h1>
+    <p class="home-lead">I work at the intersection of reinforcement learning, operations research, and agentic AI. My research turns complex decisions in transportation and industrial systems into models that can learn, optimize, and operate at scale.</p>
+    <div class="home-actions">
+      <a class="btn btn--primary" href="/projects/">Explore projects</a>
+      <a class="btn btn--light-outline" href="/cv/">View CV</a>
+    </div>
   </div>
+  <aside class="hero-about">
+    <span>About me</span>
+    <p>I received my Ph.D. in System Science from Beijing Jiaotong University in June 2024. My doctoral research focused on passenger-driver matching and vehicle dispatch in ride-sourcing markets. I now work as a data scientist in Beijing, developing data-driven decision systems for industrial control, operational optimization, and agentic AI.</p>
+    <p>I am interested in research collaborations around optimization agents, reinforcement learning with verifiable rewards, open-source solvers, and learning-augmented operations research.</p>
+  </aside>
 </section>
 
 ## Research focus
@@ -63,8 +70,8 @@ redirect_from:
   <article class="work-card work-card--purple">
     <p class="work-tag">AGENTIC AI</p>
     <h3>Data science & OR agents</h3>
-    <p>CodeAct agents that inspect data, execute analysis, call optimization tools, verify results, and produce reusable artifacts.</p>
-    <div class="metric-row"><span><strong>Tools</strong> + execution</span><span><strong>Verifier</strong> + RLVR</span></div>
+    <p>Agent workflows for research automation, enterprise data QA, optimization modeling, tool execution, and verifiable post-training.</p>
+    <div class="metric-row"><span><strong>CodeAct</strong> + tools</span><span><strong>Verifier</strong> + RLVR</span></div>
   </article>
 </div>
 
@@ -99,9 +106,3 @@ redirect_from:
   </a>
 {% endfor %}
 </div>
-
-## About
-
-I received my Ph.D. in System Science from Beijing Jiaotong University in June 2024. My doctoral research focused on passenger–driver matching and vehicle dispatch in ride-sourcing markets. I now work as a data scientist in Beijing, developing data-driven decision systems for industrial control, operational optimization, and agentic AI.
-
-I am interested in research collaborations around optimization agents, reinforcement learning with verifiable rewards, open-source solvers, and learning-augmented operations research.
