@@ -185,6 +185,20 @@ body { background: var(--canvas); color: var(--ink); }
 .project-figure-grid img, .project-feature-figure img { display: block; width: 100%; height: auto; }
 .project-figure-grid figcaption, .project-feature-figure figcaption { padding: .8rem 1rem; color: var(--muted); font-size: .76rem; line-height: 1.5; }
 .project-feature-figure { margin: 2rem 0; }
+.project-feature-figure--traffic img { max-height: 540px; object-fit: cover; object-position: center; }
+.agent-architecture { display: grid; gap: 1px; margin: 2rem 0; border: 1px solid var(--line); background: var(--line); }
+.agent-architecture section { background: var(--paper); }
+.agent-architecture span { display: block; margin-bottom: .8rem; color: var(--accent); font-family: monospace; font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.agent-architecture__context, .agent-architecture__tools, .agent-architecture__outputs { display: grid; grid-template-columns: 1.35fr repeat(4, 1fr); gap: 1px; padding: 1px; background: var(--line) !important; }
+.agent-architecture__context span, .agent-architecture__tools span, .agent-architecture__outputs span { display: flex; align-items: center; margin: 0; padding: .95rem 1.1rem; background: var(--warm); }
+.agent-architecture__context div, .agent-architecture__tools div, .agent-architecture__outputs div { display: flex; align-items: center; min-height: 55px; padding: .85rem; color: var(--ink); background: var(--paper); font-size: .79rem; font-weight: 700; line-height: 1.35; }
+.agent-architecture__core { padding: 1.2rem; background: var(--accent-soft) !important; }
+.agent-architecture__core-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); }
+.agent-architecture__core-grid div, .agent-architecture__trust div { min-height: 76px; padding: 1rem; background: var(--paper); }
+.agent-architecture strong { display: block; color: var(--ink); font-size: .85rem; }
+.agent-architecture small { display: block; margin-top: .4rem; color: var(--muted); font-size: .72rem; line-height: 1.4; }
+.agent-architecture__trust { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; align-items: stretch; gap: 1px; padding: 1px; background: var(--line) !important; }
+.agent-architecture__trust i { display: grid; width: 38px; place-items: center; color: var(--accent); background: var(--warm); font-size: 1.1rem; font-style: normal; }
 .cv-download { padding: 1rem 1.15rem; border: 1px solid var(--line); border-left: 4px solid var(--accent); background: var(--accent-soft); }
 .cv-download a { color: var(--accent-deep); font-weight: 750; }
 .cv-date { float: right; color: var(--accent); font-family: monospace; font-size: .8rem; font-weight: 700; }
@@ -221,6 +235,10 @@ body { background: var(--canvas); color: var(--ink); }
   .project-figure-grid { grid-template-columns: 1fr; }
   .project-data-table { font-size: .8rem; }
   .project-data-table th, .project-data-table td { padding: .7rem; }
+  .agent-architecture__context, .agent-architecture__tools, .agent-architecture__outputs { grid-template-columns: 1fr 1fr; }
+  .agent-architecture__context span, .agent-architecture__tools span, .agent-architecture__outputs span { grid-column: 1 / -1; }
+  .agent-architecture__core-grid, .agent-architecture__trust { grid-template-columns: 1fr; }
+  .agent-architecture__trust i { width: auto; min-height: 26px; transform: rotate(90deg); }
   .focus-card, .work-card, .project-summary-grid article { min-height: 0; }
   .metric-row { flex-direction: column; gap: .65rem; }
   .latest-list a { grid-template-columns: 1fr; gap: .3rem; }

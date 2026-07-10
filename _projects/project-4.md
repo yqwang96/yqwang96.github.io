@@ -18,6 +18,40 @@ This project family builds AI agents that can do more than converse: they inspec
 
 It combines practical agent systems with research on executable trajectories, verifiers, and reinforcement learning with verifiable rewards. The result is a platform for studying and deploying agents that can produce auditable artifacts and support real operational decisions.
 
+## Architecture
+
+<div class="agent-architecture" aria-label="Data science and operations research agents architecture">
+  <section class="agent-architecture__context">
+    <span>Context and data</span>
+    <div>Project workspaces</div><div>Files and datasets</div><div>Enterprise knowledge</div><div>Domain APIs</div>
+  </section>
+  <section class="agent-architecture__core">
+    <span>Agent runtime</span>
+    <div class="agent-architecture__core-grid"><div><strong>Planner</strong><small>Task decomposition and tool selection</small></div><div><strong>Session and memory</strong><small>Persistent context, checkpoints, and recovery</small></div><div><strong>Policy layer</strong><small>Permissions, safety rules, and approval gates</small></div></div>
+  </section>
+  <section class="agent-architecture__tools">
+    <span>Execution and reasoning tools</span>
+    <div>Python and SQL</div><div>Retrieval and data QA</div><div>Optimization solvers</div><div>Reports, charts, and artifacts</div>
+  </section>
+  <section class="agent-architecture__trust">
+    <div><strong>Verifier</strong><small>Feasibility, constraints, and output checks</small></div><i aria-hidden="true">↔</i><div><strong>Human approval</strong><small>Review state-changing or high-risk actions</small></div><i aria-hidden="true">↔</i><div><strong>Post-training</strong><small>CodeAct trajectories and RLVR signals</small></div>
+  </section>
+  <section class="agent-architecture__outputs">
+    <span>Auditable outputs</span>
+    <div>Analysis</div><div>Models</div><div>Optimization plans</div><div>Reusable artifacts</div>
+  </section>
+</div>
+
+<table class="project-data-table">
+  <thead><tr><th>Architecture layer</th><th>Role in a data-science and OR workflow</th></tr></thead>
+  <tbody>
+    <tr><td>Context and data</td><td>Keeps files, project state, knowledge, and business data available to the agent without losing ownership boundaries.</td></tr>
+    <tr><td>Agent runtime</td><td>Plans multi-step work, preserves long-running sessions, and routes tasks to the right tool.</td></tr>
+    <tr><td>Execution tools</td><td>Turns reasoning into runnable Python/SQL, retrieval, solver calls, visualizations, and deliverable artifacts.</td></tr>
+    <tr><td>Trust loop</td><td>Verifies results, requests human approval where needed, and creates data for reliable post-training.</td></tr>
+  </tbody>
+</table>
+
 ## Overview
 
 This project family explores how large language models can become reliable workers for data science and operations research tasks. Instead of treating the model as a pure chatbot, the agent is connected to files, Python/SQL execution, domain tools, optimization solvers, approval checkpoints, and persistent project context.
