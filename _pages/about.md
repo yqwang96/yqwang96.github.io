@@ -1,5 +1,6 @@
 ---
 permalink: /
+layout: archive
 title: "Yinquan WANG / 王印权"
 excerpt: "Reinforcement Learning · Operations Research · Agentic AI"
 author_profile: true
