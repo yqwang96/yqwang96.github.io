@@ -4,7 +4,7 @@ collection: projects
 type: "Industrial Control, Agentic AI, and Optimization"
 permalink: /projects/project-5
 role: "Data Scientist and Developer"
-date: 2024-07-01
+date: 2025-09-01
 excerpt: "An end-to-end district-heating intelligence system combining OPC data collection, LightGBM temperature/frequency models, safe control execution, and a tool-using heating agent across 130+ stations."
 ---
 

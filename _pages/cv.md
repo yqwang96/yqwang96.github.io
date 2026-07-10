@@ -35,12 +35,14 @@ Continued in the combined master's and doctoral program.
 
 **B.Eng. in Traffic Engineering, Qingdao University of Technology** <span class="cv-date">2014–2018</span>
 
-## Research and engineering
+## Technical skills
 
-- **Agentic AI and post-training:** CodeAct, ReAct, MCP-style tool integration, tool-use environments, trajectory synthesis, verifiers, SFT, RLHF, PPO, GRPO, and RLVR.
-- **Operations research:** mathematical programming, scheduling, matching, vehicle routing, column generation, predict-then-optimize, CPLEX/DOcplex, and open-source solvers.
-- **Machine learning:** PyTorch, scikit-learn, LightGBM, time-series forecasting, causal inference, and reinforcement learning.
-- **Systems and applications:** Python, SQL, Spark, Hadoop, vLLM, RAG, Django, React, simulation, and data visualization.
+- **Deep learning:** PyTorch, Gym, Stable-Baselines3, reinforcement learning, and simulation environments.
+- **Data science:** Pandas, NumPy, SciPy, scikit-learn, GeoPandas, Spark, Hadoop, and time-series forecasting.
+- **Operations research:** CPLEX, DOcplex, mathematical programming, scheduling, matching, routing, and learning-augmented optimization.
+- **Visualization:** Matplotlib, ECharts, seaborn, Leaflet, Mapbox GL, and ArcGIS.
+- **Platform development:** Python, SQL, Django, JavaScript, React, Django REST Framework, Axios, Ant Design, MySQL, vLLM, and RAG.
+- **Agentic AI and post-training:** CodeAct, ReAct, MCP-style tool integration, verifiers, SFT, PPO, GRPO, and RLVR.
 
 ## Agentic AI projects
 
@@ -57,20 +59,9 @@ Continued in the combined master's and doctoral program.
 - Delivered a gas-anomaly detection solution whose false-alarm rate decreased by **25%**, subsequently expanded to **33+ mines** and **340+ working faces**.
 - Built agentic AI prototypes that combine file/context management, tool execution, approval checkpoints, artifact generation, and optimization/data-analysis workflows.
 
-## Publications
-
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
-## Projects
-
-<ul>{% for post in site.projects %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
 ## Honors
 
+- 2025 Striver of the Year, China Unicom Data Intelligence Co., Ltd.
 - National Second Prize, Digital China Innovation Competition, 2020.
 - National Third Prize, Mathematical Contest in Modeling for Chinese Graduate Students, 2019.
 - Beijing Jiaotong University Doctoral Scholarship, 2019–2021.
