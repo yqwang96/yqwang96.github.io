@@ -1,14 +1,14 @@
 ---
-title: "Urban Transportation System Emergency"
+title: "Urban Traffic Simulation and Emergency Deduction"
 collection: projects
-type: "Simulation and Training Reinforcement Learning Environment"
+type: "Urban Traffic Simulation and Decision Support"
 permalink: /projects/project-3
 role: "Developer"
 date: 2022-11-30
-excerpt: "A multimodal emergency-simulation platform that quantifies how planned and unplanned disruptions reshape urban travel, congestion, detours, and transit demand."
+excerpt: "A multimodal traffic-simulation and scenario-deduction platform for evaluating disruptions, congestion, detours, and travel-demand shifts across an urban network."
 ---
 
-A multimodal deduction and simulation platform for urban transportation systems under planned events and unplanned disruptions.
+A multimodal traffic-simulation and scenario-deduction platform for urban transportation systems under planned events and unplanned disruptions.
 
 ---
 
