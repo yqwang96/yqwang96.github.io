@@ -21,9 +21,17 @@ redirect_from:
     </div>
   </div>
   <aside class="hero-about">
-    <span>About me</span>
+    <div class="profile-contact">
+      <img src="/images/profile.png" alt="Yinquan Wang">
+      <div><span>About me</span><p>Beijing, China</p></div>
+    </div>
     <p>I received my Ph.D. in System Science from Beijing Jiaotong University in June 2024. My doctoral research focused on passenger-driver matching and vehicle dispatch in ride-sourcing markets. I now work as a data scientist in Beijing, developing data-driven decision systems for industrial control, operational optimization, and agentic AI.</p>
     <p>I am interested in research collaborations around optimization agents, reinforcement learning with verifiable rewards, open-source solvers, and learning-augmented operations research.</p>
+    <div class="contact-list">
+      <a href="mailto:bjtuwangyq@bjtu.edu.cn">Email</a>
+      <a href="https://github.com/yqwang96">GitHub</a>
+      <a href="http://orcid.org/0000-0001-8845-9665">ORCID</a>
+    </div>
   </aside>
 </section>
 

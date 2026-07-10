@@ -10,15 +10,15 @@ classes: wide
 
 <p class="page-intro">Research prototypes and deployed systems spanning intelligent transportation, industrial optimization, decision support, and agentic AI.</p>
 
-<div class="project-summary-grid">
-  <article><span>Agentic AI</span><h3>Data science & OR agents</h3><p>Tool-using agents for data QA, research automation, solver-backed optimization, approval recovery, and verifiable post-training.</p></article>
-  <article><span>Industrial optimization</span><h3>Production scheduling</h3><p>Optimization systems deployed across four manufacturing plants, improving material utilization and shortening delivery cycles.</p></article>
-  <article><span>Industrial control</span><h3>District heating</h3><p>Forecasting and safety-aware optimization across 130+ heat-exchange stations and 8,000+ sensor points.</p></article>
-  <article><span>Industrial analytics</span><h3>Gas anomaly detection</h3><p>A scalable anomaly-detection system expanded to 33+ mines and 340+ working faces.</p></article>
-</div>
+<h2>Selected projects</h2>
 
-<h2>Research platforms</h2>
-
-{% for post in site.projects %}
-  {% include archive-single.html %}
+<div class="project-gallery">
+{% for post in site.projects reversed %}
+  <article class="project-entry">
+    <div class="project-entry__meta"><span>{{ post.type }}</span><time>{{ post.date | date: "%Y" }}</time></div>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt | markdownify | strip_html | strip_newlines }}</p>
+    <a class="project-entry__link" href="{{ post.url }}">Read project <span aria-hidden="true">→</span></a>
+  </article>
 {% endfor %}
+</div>
