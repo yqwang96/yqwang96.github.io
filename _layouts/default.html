@@ -1,31 +1,39 @@
 ---
 layout: compress
 ---
-
 {% include base_path %}
-
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-brand" href="{{ base_path }}/" aria-label="{{ site.name }} home">
+          <span>YQW</span>
+          <strong>Yinquan Wang</strong>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+            <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+      <main class="site-main" id="main" role="main">
+        {{ content }}
+      </main>
+      <footer class="site-footer">
+        <p>Yinquan Wang · Decision intelligence for real-world systems.</p>
+        <div>
+          <a href="mailto:{{ site.author.email }}">Email</a>
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+          <a href="{{ site.author.orcid }}">ORCID</a>
+        </div>
       </footer>
     </div>
-
     {% include scripts.html %}
-
   </body>
 </html>
