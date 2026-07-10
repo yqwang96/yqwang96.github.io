@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <rect width="1200" height="360" fill="#f7f8fa"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#222">OR-Agent-R1 的可验证 Agent 闭环</text>
+  <g font-family="Arial, sans-serif" font-size="20" text-anchor="middle">
+    <g fill="#e8f1ff" stroke="#2f6fba" stroke-width="2">
+      <rect x="35" y="125" width="185" height="90" rx="14"/><rect x="255" y="125" width="185" height="90" rx="14"/>
+      <rect x="475" y="125" width="185" height="90" rx="14"/><rect x="695" y="125" width="185" height="90" rx="14"/>
+    </g>
+    <g fill="#fff2d9" stroke="#c88719" stroke-width="2"><rect x="915" y="125" width="230" height="90" rx="14"/></g>
+    <g fill="#222"><text x="127" y="165">自然语言问题</text><text x="127" y="193">question</text><text x="347" y="165">抽取与建模</text><text x="347" y="193">extract / formulate</text><text x="567" y="165">生成 PuLP 代码</text><text x="567" y="193">solve / revise</text><text x="787" y="165">CBC 执行器</text><text x="787" y="193">optimal + objective</text><text x="1030" y="165">奖励与下一状态</text><text x="1030" y="193">verifiable reward</text></g>
+  </g>
+  <g stroke="#555" stroke-width="3" fill="none"><path d="M220 170h30m190 0h30m190 0h30m190 0h30"/><path d="M1030 235v70H127v-70"/></g>
+  <g fill="#555"><path d="M250 170l-12-8v16z"/><path d="M470 170l-12-8v16z"/><path d="M690 170l-12-8v16z"/><path d="M910 170l-12-8v16z"/><path d="M127 235l-8 12h16z"/></g>
+  <text x="600" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#555">模型输出不只是答案，而是一个可以被环境执行和校验的决策过程</text>
+</svg>
