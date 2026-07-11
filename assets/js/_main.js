@@ -3,6 +3,84 @@
    ========================================================================== */
 
 $(document).ready(function(){
+  // Progressive motion and interaction layer.
+  var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.documentElement.classList.add("motion-ready");
+
+  // Give the opening composition a deliberate editorial rhythm.
+  $(".home-hero .home-eyebrow, .home-hero h1, .home-hero .home-lead, .home-hero .home-actions, .home-hero .hero-about").each(function(index) {
+    this.setAttribute("data-hero", "");
+    this.style.setProperty("--hero-delay", (80 + index * 115) + "ms");
+  });
+
+  // Reveal content groups as they enter the viewport, staggered per group.
+  var revealGroups = [".page__content > h2", ".focus-card", ".work-card", ".project-entry", ".project-summary-grid article", ".publication-list article", ".latest-list a", ".archive__item", ".project-flow", ".project-data-table", ".project-figure-grid", ".project-feature-figure", ".agent-architecture"];
+  var revealNodes = document.querySelectorAll(revealGroups.join(","));
+  Array.prototype.forEach.call(revealNodes, function(node, index) {
+    node.setAttribute("data-reveal", "");
+    node.style.setProperty("--reveal-delay", ((index % 4) * 65) + "ms");
+  });
+  if (!reduceMotion && "IntersectionObserver" in window) {
+    var revealObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: "0px 0px -8%", threshold: .08 });
+    Array.prototype.forEach.call(revealNodes, function(node) { revealObserver.observe(node); });
+  } else {
+    Array.prototype.forEach.call(revealNodes, function(node) { node.classList.add("is-visible"); });
+  }
+
+  // A single gliding nav marker follows focus/hover, then returns to the current page.
+  var nav = document.querySelector(".site-nav");
+  if (nav) {
+    var links = nav.querySelectorAll("a");
+    var current = nav.querySelector('[aria-current="page"]') || links[0];
+    var glider = document.createElement("span");
+    glider.className = "nav-glider";
+    glider.setAttribute("aria-hidden", "true");
+    nav.appendChild(glider);
+    nav.classList.add("is-enhanced");
+    var moveGlider = function(link) {
+      if (!link) return;
+      glider.style.width = link.offsetWidth + "px";
+      glider.style.transform = "translateX(" + link.offsetLeft + "px)";
+      glider.style.opacity = "1";
+    };
+    Array.prototype.forEach.call(links, function(link) {
+      link.addEventListener("mouseenter", function() { moveGlider(link); });
+      link.addEventListener("focus", function() { moveGlider(link); });
+    });
+    nav.addEventListener("mouseleave", function() { moveGlider(current); });
+    nav.addEventListener("focusout", function(event) { if (!nav.contains(event.relatedTarget)) moveGlider(current); });
+    window.addEventListener("resize", function() { moveGlider(current); });
+    moveGlider(current);
+  }
+
+  // Pointer-lit cards add depth without changing the restrained geometry.
+  if (!reduceMotion && window.matchMedia("(hover: hover)").matches) {
+    $(".focus-card, .work-card, .project-summary-grid article, .project-entry").on("mousemove", function(event) {
+      var rect = this.getBoundingClientRect();
+      this.style.setProperty("--pointer-x", (event.clientX - rect.left) + "px");
+      this.style.setProperty("--pointer-y", (event.clientY - rect.top) + "px");
+    });
+  }
+
+  // Compact the header after the opening viewport and pulse the architecture core once.
+  var header = document.querySelector(".site-header");
+  var updateHeader = function() { if (header) header.classList.toggle("is-condensed", window.pageYOffset > 48); };
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
+  var architectureCore = document.querySelector(".agent-architecture__core");
+  if (architectureCore && "IntersectionObserver" in window && !reduceMotion) {
+    new IntersectionObserver(function(entries, observer) {
+      if (entries[0].isIntersecting) { architectureCore.classList.add("is-visible"); observer.disconnect(); }
+    }, { threshold: .45 }).observe(architectureCore);
+  }
+
    // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
