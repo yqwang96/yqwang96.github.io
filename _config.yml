@@ -77,6 +77,15 @@ analytics:
   google:
     tracking_id          :
 
+# Public visitor map and page-view counter (ClustrMaps).
+# Create a Map widget for `https://yqwang96.github.io` at https://clustrmaps.com,
+# then paste the `d` value from its embed URL below and set `enabled` to true.
+# The widget reports only the provider's aggregated location data; it does not
+# store visitor IP addresses in this repository.
+visitor_map:
+  enabled                : false
+  clustrmaps_id          : ""
+
 
 # Site Author
 author:

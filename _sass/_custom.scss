@@ -311,3 +311,28 @@ body::before {
   .latest-list a { grid-template-columns: 1fr; gap: .3rem; }
   .cv-date { float: none; display: block; margin-top: .35rem; }
 }
+/* Public visitor map displayed in the site footer when enabled in _config.yml. */
+.visitor-map {
+  margin: 2rem auto 0;
+  max-width: 320px;
+  text-align: center;
+}
+
+.visitor-map__title {
+  margin: 0 0 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.visitor-map__widget {
+  min-height: 30px;
+}
+
+.visitor-map__notice {
+  margin: 0.55rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  opacity: 0.72;
+}

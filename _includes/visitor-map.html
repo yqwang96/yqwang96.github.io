@@ -1,0 +1,13 @@
+{% if site.visitor_map.enabled and site.visitor_map.clustrmaps_id != blank %}
+<section class="visitor-map" aria-label="Visitor statistics">
+  <p class="visitor-map__title">Visitors around the world</p>
+  <div class="visitor-map__widget">
+    <script
+      id="clustrmaps"
+      type="text/javascript"
+      src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=a&amp;t=n&amp;d={{ site.visitor_map.clustrmaps_id | url_encode }}">
+    </script>
+  </div>
+  <p class="visitor-map__notice">Page views and approximate visitor locations are provided by ClustrMaps.</p>
+</section>
+{% endif %}
