@@ -1,13 +1,11 @@
-{% if site.visitor_map.enabled and site.visitor_map.clustrmaps_id != blank %}
-<section class="visitor-map" aria-label="Visitor statistics">
-  <p class="visitor-map__title">Visitors around the world</p>
-  <div class="visitor-map__widget">
-    <script
-      id="clustrmaps"
-      type="text/javascript"
-      src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&amp;w=a&amp;t=n&amp;d={{ site.visitor_map.clustrmaps_id | url_encode }}">
-    </script>
+{% if site.visitor_map.enabled and site.visitor_map.endpoint != blank %}
+<section class="visitor-map" aria-label="Visitor statistics" data-visitor-map-endpoint="{{ site.visitor_map.endpoint }}">
+  <div class="visitor-map__heading">
+    <p class="visitor-map__title">Visitors around the world</p>
+    <p class="visitor-map__count" data-visitor-count aria-live="polite">Loading visits…</p>
   </div>
-  <p class="visitor-map__notice">Page views and approximate visitor locations are provided by ClustrMaps.</p>
+  <div class="visitor-map__canvas" data-visitor-map aria-label="Approximate visitor locations on a world map"></div>
+  <p class="visitor-map__notice">This site records page views with country-level, approximate map locations. No IP addresses are stored.</p>
 </section>
+<script defer src="{{ base_path }}/assets/js/visitor-map.js"></script>
 {% endif %}

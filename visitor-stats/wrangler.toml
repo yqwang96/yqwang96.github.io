@@ -1,0 +1,9 @@
+name = "yqwang96-visitor-stats"
+main = "src/index.js"
+compatibility_date = "2026-07-11"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "yqwang96-visitor-stats"
+database_id = "3563ef55-d721-40e9-81b4-4c5748b30761"
+migrations_dir = "migrations"

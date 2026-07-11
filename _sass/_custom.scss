@@ -314,8 +314,15 @@ body::before {
 /* Public visitor map displayed in the site footer when enabled in _config.yml. */
 .visitor-map {
   margin: 2rem auto 0;
-  max-width: 320px;
+  max-width: 620px;
   text-align: center;
+}
+
+.visitor-map__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .visitor-map__title {
@@ -328,6 +335,28 @@ body::before {
 
 .visitor-map__widget {
   min-height: 30px;
+}
+
+.visitor-map__count {
+  margin: 0;
+  color: #d17842;
+  font-size: 0.86rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.visitor-map__canvas {
+  height: 230px;
+  margin-top: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(12, 24, 38, 0.42);
+}
+
+.visitor-map__canvas .leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.72);
+  color: #333;
+  font-size: 9px;
 }
 
 .visitor-map__notice {
