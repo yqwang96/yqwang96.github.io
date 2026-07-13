@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<section class="content-frame{% if page.url == '/' %} content-frame--home{% endif %}">
-  {% unless page.url == '/' or page.header.overlay_color or page.header.overlay_image %}
+<section class="content-frame{% if page.url == '/' %} content-frame--home{% endif %}{% if page.cv_page %} content-frame--cv{% endif %}">
+  {% unless page.url == '/' or page.header.overlay_color or page.header.overlay_image or page.cv_page %}
     <header class="page-heading">
       <p class="page-heading__eyebrow">YINQUAN WANG / RESEARCH NOTEBOOK</p>
       <h1>{{ page.title }}</h1>
