@@ -23,7 +23,7 @@ redirect_from:
     </div>
     <div class="cv-hero__actions" aria-label="简历操作">
       <button type="button" onclick="window.print()">打印 / 保存 PDF</button>
-      <a href="/files/WANGYinquan-CV-2026.pdf">下载 PDF</a>
+      <a href="/files/WANGYinquan-CV-2026.html">独立打印版</a>
     </div>
   </header>
 
@@ -116,8 +116,8 @@ redirect_from:
       <ul>
         <li>面向煤矿安全生产构建多传感器异常检测系统，识别煤与瓦斯突出、冒顶片帮等 6 类典型异常征兆，完成需求分析、数据治理、模型研发、服务部署和现场效果评估。</li>
         <li>将 72 小时多变量时序转换为递归图和 CWT 时频图，设计多路 ResNet18 双通道融合模型，刻画异常前兆的波动、极值和趋势演化；模型 AUC 达 96.65%，召回率较单视图基线提升 105%。</li>
-        <li>将模型封装为在线预警服务，对接 ClickHouse 实时数据流，通过 Flask API 与 Docker 完成生产部署、日志监控和业务系统集成；经阈值优化与现场反馈，误报率下降 25%。</li>
-        <li>核心模型服务覆盖全省 30+ 重点工作面，相关方案后续推广至 33+ 矿、340+ 工作面，形成“实时接入—特征构建—在线推理—风险预警—现场反馈”的端到端闭环。</li>
+        <li>将模型封装为在线预警服务，对接 ClickHouse 实时数据流，通过 Flask API 与 Docker 完成生产部署、日志监控和业务系统集成，覆盖全省 30+ 重点工作面。</li>
+        <li>双通道融合模型 AUC 达 96.65%，召回率较单视图基线提升 105%，形成“实时接入—特征构建—在线推理—风险预警—现场反馈”的端到端闭环。</li>
       </ul>
     </article>
   </section>
